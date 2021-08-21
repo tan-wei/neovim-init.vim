@@ -20,3 +20,9 @@ cp init.vim ~/.config/nvim
 
 ### Install plugins
 Use `:PlugInstall` to install all the plugins.
+
+### Special instructions on MacOS
+`YouCompleteMe` should enable `python3` in neovim, so extra instaurctions should be done:
+```bash
+pip3 install neovim --upgrade
+```

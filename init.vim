@@ -9,6 +9,9 @@ Plug 'bronson/vim-trailing-whitespace'
 
 " General settings{{{
 set nu
+if has('mac')
+    let g:python3_host_prog = '/usr/local/bin/python3'
+endif
 " }}}
 
 " General plugins {{{
