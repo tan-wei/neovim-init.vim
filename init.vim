@@ -1,13 +1,13 @@
 call plug#begin('~/.config/nvim/plugged')
 
-" General{{{
+" General {{{
 Plug '907th/vim-auto-save'
 Plug 'scrooloose/nerdtree'
 Plug 'mhinz/vim-startify'
 Plug 'bronson/vim-trailing-whitespace'
 " }}}
 
-" General settings{{{
+" General settings {{{
 set nu
 if has('mac')
     let g:python3_host_prog = '/usr/local/bin/python3'
@@ -26,7 +26,7 @@ Plug 'APZelos/blamer.nvim'
 let g:blamer_enabled = 1
 " }}}
 
-" Markdown related plugins{{{
+" Markdown related plugins {{{
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 
@@ -46,11 +46,11 @@ let g:mkdp_markdown_css=''
 " }}}
 
 
-" Snippet related plugins{{{
+" Snippet related plugins {{{
 " }}}
 
 
-" C++ retlated plugins{{{
+" C++ retlated plugins  {{{
 Plug 'ycm-core/YouCompleteMe'
 
 let g:ycm_add_preview_to_completeopt = 0
@@ -71,11 +71,11 @@ let g:ycm_semantic_triggers =  {
            \ }
 " }}}
 
-" Rust related plugins{{{
+" Rust related plugins {{{
 Plug 'wting/rust.vim'
 " }}}
 
-" Color Scheme related plugins{{{
+" Color Scheme related plugins {{{
 Plug 'iCyMind/NeoSolarized'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tomasr/molokai'
@@ -94,10 +94,12 @@ syntax enable
 " colorscheme NeoSolarized
 " }}}
 
-" PlainTasks
+" PlainTasks {{{
 Plug 'elentok/plaintasks.vim'
+" }}}
 
-" Coc
+" Coc {{{
 Plug 'neoclide/coc.nvim', {'branch':'release'}
+" }}}
 
 call plug#end()
