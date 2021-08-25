@@ -123,6 +123,7 @@ let g:grepper.quickfix      = 0
 " Auto Pairs {{{
 Plug 'jiangmiao/auto-pairs'
 
+let g:AutoPairs             = {'(':')', '[':']', '{':'}',"'":"'",'"':'"', '```':'```', '"""':'"""', "'''":"'''"}
 let g:AutoPairsShortcutJump = '<C-n>'
 " }}}
 
