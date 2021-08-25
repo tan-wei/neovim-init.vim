@@ -119,4 +119,9 @@ let g:grepper.next_tool     = '<leader>g'
 let g:grepper.simple_prompt = 1
 let g:grepper.quickfix      = 0
 " }}}
+
+" Auto Pairs {{{
+Plug 'jiangmiao/auto-pairs'
+" }}}
+
 call plug#end()
