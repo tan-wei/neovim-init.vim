@@ -1,26 +1,24 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.config/nvim/bundle/Vundle.vim
-call vundle#begin('~/.config/nvim/bundle')
+call plug#begin('~/.config/nvim/plugged')
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'Lokaltog/vim-powerline'
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
-Plugin 'iCyMind/NeoSolarized'
-Plugin 'ycm-core/YouCompleteMe'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'itchyny/vim-cursorword' 
-Plugin 'APZelos/blamer.nvim'
-Plugin 'bronson/vim-trailing-whitespace'
-Plugin 'scrooloose/nerdtree'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'elentok/plaintasks.vim'
-Plugin 'neoclide/coc.nvim', {'branch':'release'}
+Plug 'VundleVim/Vundle.vim'
+Plug 'Lokaltog/vim-powerline'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+Plug 'iCyMind/NeoSolarized'
+Plug 'ycm-core/YouCompleteMe'
+Plug 'airblade/vim-gitgutter'
+Plug 'itchyny/vim-cursorword' 
+Plug 'APZelos/blamer.nvim'
+Plug 'bronson/vim-trailing-whitespace'
+Plug 'scrooloose/nerdtree'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'elentok/plaintasks.vim'
+Plug 'neoclide/coc.nvim', {'branch':'release'}
 
-call vundle#end()            " required
+call plug#end()
 filetype plugin indent on    " required
 
 "
