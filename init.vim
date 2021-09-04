@@ -1,5 +1,13 @@
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Genral settings section
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Plugin related section
 
 call plug#begin('~/.config/nvim/plugged')
 
@@ -65,3 +73,4 @@ let g:multi_cursor_next_key            = '<C-d>'
 let g:multi_cursor_prev_key            = '<C-p>'
 let g:multi_cursor_skip_key            = '<C-x>'
 let g:multi_cursor_quit_key            = '<Esc>'
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
