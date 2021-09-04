@@ -3,6 +3,28 @@
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
+
+"
+" Remember the position of cursor
+set viminfo='800,<3000
+au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
+
+set cursorline
+"hi CursorLine ctermbg=darkgrey
+set cursorcolumn
+set autoindent
+set wrap
+set nu
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set fileencodings=gb18030,gbk,gb2312,utf-8
+set termencoding=utf-8
+set encoding=utf-8
+set incsearch " incremental search
+set laststatus=2 
+set list lcs=tab:\|\ 
+syntax enable
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
@@ -29,27 +51,6 @@ Plug 'neoclide/coc.nvim', {'branch':'release'}
 call plug#end()
 filetype plugin indent on    " required
 
-"
-" Remember the position of cursor
-set viminfo='800,<3000
-au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
-
-set cursorline
-"hi CursorLine ctermbg=darkgrey
-set cursorcolumn
-set autoindent
-set wrap
-set nu
-set tabstop=2
-set shiftwidth=2
-set expandtab
-set fileencodings=gb18030,gbk,gb2312,utf-8
-set termencoding=utf-8
-set encoding=utf-8
-set incsearch " incremental search
-set laststatus=2 
-set list lcs=tab:\|\ 
-syntax enable
 
 
 colorscheme NeoSolarized
