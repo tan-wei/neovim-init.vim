@@ -33,7 +33,6 @@ syntax enable
 
 call plug#begin('~/.config/nvim/plugged')
 
-Plug 'VundleVim/Vundle.vim'
 Plug 'Lokaltog/vim-powerline'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
