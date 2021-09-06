@@ -1,5 +1,32 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Genral settings section
+
+set nocompatible              " be iMproved, required
+filetype off                  " required
+filetype plugin indent on     " required
+
+"
+" Remember the position of cursor
+set viminfo='800,<3000
+au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
+
+set cursorline
+"hi CursorLine ctermbg=darkgrey
+set cursorcolumn
+set autoindent
+set wrap
+set nu
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set fileencodings=gb18030,gbk,gb2312,utf-8
+set termencoding=utf-8
+set encoding=utf-8
+set incsearch " incremental search
+set laststatus=2 
+set list lcs=tab:\|\ 
+syntax enable
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
@@ -8,24 +35,33 @@
 
 call plug#begin('~/.config/nvim/plugged')
 
-" General {{{
-Plug '907th/vim-auto-save'
-Plug 'scrooloose/nerdtree'
-Plug 'mhinz/vim-startify'
-Plug 'bronson/vim-trailing-whitespace'
-" }}}
 
 " General settings {{{
-set nu
 if has('mac')
     let g:python3_host_prog = '/usr/local/bin/python3'
 endif
 " }}}
 
-" General plugins {{{
-Plug 'itchyny/vim-cursorword'
-" }}}
 
+" General {{{
+Plug '907th/vim-auto-save'
+Plug 'scrooloose/nerdtree'
+Plug 'mhinz/vim-startify'
+Plug 'bronson/vim-trailing-whitespace'
+Plug 'itchyny/vim-cursorword'
+Plug 'terryma/vim-multiple-cursors'
+
+" Multi Cursor Default mapping
+let g:multi_cursor_use_default_mapping = 0
+let g:multi_cursor_start_word_key      = '<C-d>'
+let g:multi_cursor_select_all_word_key = '<A-n>'
+let g:multi_cursor_start_key           = 'g<C-d>'
+let g:multi_cursor_select_all_key      = 'g<A-n>'
+let g:multi_cursor_next_key            = '<C-d>'
+let g:multi_cursor_prev_key            = '<C-p>'
+let g:multi_cursor_skip_key            = '<C-x>'
+let g:multi_cursor_quit_key            = '<Esc>'
+" }}}
 
 " Git related plugins {{{
 Plug 'airblade/vim-gitgutter'
@@ -84,16 +120,16 @@ Plug 'wting/rust.vim'
 " }}}
 
 " Color Scheme related plugins {{{
-Plug 'iCyMind/NeoSolarized'
+Plug 'overcache/NeoSolarized'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tomasr/molokai'
 
 let g:molokai_original = 1
 let g:rehash256 = 1
 
-colorscheme molokai
-
-syntax enable
+set termguicolors
+set hlsearch
+set nobackup
 
 """""""""""""""""""""""""""""""""""""""
 " set background=dark
@@ -139,4 +175,16 @@ let g:AutoPairsShortcutJump = '<C-n>'
 " }}}
 
 call plug#end()
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Theme settings here
+
+if has("win64") || has("win32") || has("win16")
+    colorscheme NeoSolarized
+else has("mac") || has("unix")
+    colorscheme molokai
+endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
