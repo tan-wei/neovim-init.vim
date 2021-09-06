@@ -184,7 +184,7 @@ call plug#end()
 
 if has("win64") || has("win32") || has("win16")
     colorscheme NeoSolarized
-else has("mac") || has("unix")
+elseif has("mac") || has("unix")
     colorscheme molokai
 endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
