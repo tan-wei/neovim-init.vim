@@ -65,9 +65,13 @@ let g:multi_cursor_quit_key            = '<Esc>'
 
 " Git related plugins {{{
 Plug 'airblade/vim-gitgutter'
+
 Plug 'APZelos/blamer.nvim'
 
 let g:blamer_enabled = 1
+
+Plug 'tpope/vim-fugitive'
+Plug 'rbong/vim-flog'
 " }}}
 
 " Markdown related plugins {{{
