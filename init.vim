@@ -78,6 +78,7 @@ Plug 'rbong/vim-flog'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 
+
 let g:vim_markdown_math = 1
 let g:vim_markdown_toc_autofit = 1
 let g:vim_markdown_folding_disabled = 1
@@ -91,6 +92,11 @@ Plug 'iamcco/markdown-preview.nvim'
 
 let g:mkdp_path_to_chrome = "/usr/bin/google-chrome-stable"
 let g:mkdp_markdown_css=''
+
+Plug 'dhruvasagar/vim-table-mode'
+
+" Markdown-compatible tables use
+let g:table_mode_corner='|'
 " }}}
 
 
