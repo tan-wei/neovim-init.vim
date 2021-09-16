@@ -157,6 +157,8 @@ Plug 'elentok/plaintasks.vim'
 
 " Coc {{{
 Plug 'neoclide/coc.nvim', {'branch':'release'}
+
+let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-markdown-preview-enhanced', 'coc-spell-checker']
 " }}}
 
 " Search tools {{{
