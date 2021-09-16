@@ -159,6 +159,14 @@ Plug 'elentok/plaintasks.vim'
 Plug 'neoclide/coc.nvim', {'branch':'release'}
 
 let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-markdown-preview-enhanced', 'coc-spell-checker']
+
+" Config for 'coc-spell-checker'
+" <leader>aap for current paragraph
+" <leader>aw for current word
+
+vmap <leader>a <Plug>(coc-codeaction-selected)
+nmap <leader>a <Plug>(coc-codeaction-selected)
+
 " }}}
 
 " Search tools {{{
