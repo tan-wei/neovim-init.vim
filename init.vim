@@ -1,5 +1,5 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Genral settings section
+" General settings section
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -23,7 +23,7 @@ set fileencodings=gb18030,gbk,gb2312,utf-8
 set termencoding=utf-8
 set encoding=utf-8
 set incsearch " incremental search
-set laststatus=2 
+set laststatus=2
 set list lcs=tab:\|\ 
 syntax enable
 
@@ -32,9 +32,8 @@ syntax enable
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Remap general commands section
-
-nnoremap <PageUp>   <C-A-f>
-nnoremap <PageDown> <C-A-b>
+nnoremap <Space>   <PageDown>
+nnoremap <C-Space> <PageUp>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
