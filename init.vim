@@ -56,6 +56,7 @@ Plug 'mhinz/vim-startify'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'itchyny/vim-cursorword'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'ntpeters/vim-better-whitespace'
 
 " Multi Cursor Default mapping
 let g:multi_cursor_use_default_mapping = 0
