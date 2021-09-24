@@ -273,6 +273,12 @@ map H <Plug>(operator-quickhl-manual-this-motion)
 
 " }}}
 
+" Indent related plugins {{{
+Plug 'Yggdroot/indentLine'
+
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+" }}}
+
 call plug#end()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
