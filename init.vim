@@ -95,15 +95,27 @@ Plug 'mzlogin/vim-markdown-toc'
 
 let g:vmt_auto_update_on_save = 0
 
-Plug 'iamcco/markdown-preview.nvim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
-let g:mkdp_path_to_chrome = "/usr/bin/google-chrome-stable"
+let g:mkdp_path_to_chrome = "chrome"
 let g:mkdp_markdown_css=''
 
 Plug 'dhruvasagar/vim-table-mode'
 
 " Markdown-compatible tables use
 let g:table_mode_corner='|'
+
+Plug 'dkarter/bullets.vim'
+
+" Bullets.vim
+let g:bullets_enabled_file_types = [
+    \ 'markdown',
+    \]
+
+" Line spacing between bullets (1 = no blank lines, 2 = one blank line, etc.)
+let g:bullets_line_spacing = 1
+let g:bullets_pad_right    = 1
+let g:bullets_pad_right    = 0
 " }}}
 
 
