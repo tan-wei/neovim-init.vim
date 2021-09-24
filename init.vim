@@ -91,7 +91,6 @@ let g:vim_markdown_math = 1
 let g:vim_markdown_toc_autofit = 1
 let g:vim_markdown_folding_disabled = 1
 
-
 Plug 'mzlogin/vim-markdown-toc'
 
 let g:vmt_auto_update_on_save = 0
@@ -276,7 +275,9 @@ map H <Plug>(operator-quickhl-manual-this-motion)
 " Indent related plugins {{{
 Plug 'Yggdroot/indentLine'
 
-let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+let g:indentLine_char_list  = ['|', '¦', '┆', '┊']
+" Keep our conceal setting
+" let g:indentLine_setConceal = 0
 " }}}
 
 call plug#end()
