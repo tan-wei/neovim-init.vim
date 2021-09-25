@@ -205,7 +205,13 @@ Plug 'elentok/plaintasks.vim'
 " Coc {{{
 Plug 'neoclide/coc.nvim', {'branch':'release'}
 
-let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-markdown-preview-enhanced', 'coc-spell-checker']
+let g:coc_global_extensions = [ 'coc-json',
+                              \ 'coc-git', 
+							  \ 'coc-markdown-preview-enhanced', 
+							  \ 'coc-spell-checker',
+							  \ 'coc-lists',
+							  \ 'coc-snippets',
+							  \ 'coc-yank' ]
 
 " Config for 'coc-spell-checker'
 " <leader>aap for current paragraph
