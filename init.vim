@@ -58,6 +58,7 @@ Plug 'itchyny/vim-cursorword'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'liuchengxu/eleline.vim'
+Plug 'tpope/vim-repeat'
 
 " Multi Cursor Default mapping
 let g:multi_cursor_use_default_mapping = 0
