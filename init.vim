@@ -181,6 +181,7 @@ Plug 'wting/rust.vim'
 Plug 'overcache/NeoSolarized'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tomasr/molokai'
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 let g:molokai_original = 1
 let g:rehash256 = 1
@@ -341,6 +342,8 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list            = 1
 let g:syntastic_check_on_open            = 0
 let g:syntastic_check_on_wq              = 0
+" Now disable all messages
+let g:syntastic_quiet_messages           = { "type": "style" }
 " }}}
 
 " Comment related plugins {{{
