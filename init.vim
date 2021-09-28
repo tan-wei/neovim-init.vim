@@ -347,6 +347,10 @@ let g:syntastic_check_on_wq              = 0
 Plug 'tyru/caw.vim'
 " }}}
 
+" Code refactor related plugins {{{
+Plug 'AndrewRadev/splitjoin.vim'
+" }}}
+
 call plug#end()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
