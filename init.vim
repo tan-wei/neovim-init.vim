@@ -81,6 +81,7 @@ let g:blamer_enabled = 1
 
 Plug 'tpope/vim-fugitive'
 Plug 'rbong/vim-flog'
+Plug 'rhysd/git-messenger.vim'
 " }}}
 
 " Markdown related plugins {{{
