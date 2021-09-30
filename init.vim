@@ -51,7 +51,8 @@ endif
 
 " General {{{
 Plug '907th/vim-auto-save'
-Plug 'scrooloose/nerdtree'
+Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'mhinz/vim-startify'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'itchyny/vim-cursorword'
