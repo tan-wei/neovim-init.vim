@@ -151,6 +151,8 @@ let g:NERDTrimTrailingWhitespace = 1
 
 " Enable NERDCommenterToggle to check all selected lines is commented or not 
 let g:NERDToggleCheckAllLines = 1
+
+" Plug 'folke/todo-comments.nvim'
 " }}}
 
 
@@ -176,7 +178,7 @@ let g:ycm_semantic_triggers =  {
 " }}}
 
 " Rust related plugins {{{
-Plug 'wting/rust.vim'
+Plug 'rust-lang/rust.vim'
 " }}}
 
 " Color Scheme related plugins {{{
@@ -354,6 +356,11 @@ Plug 'tyru/caw.vim'
 
 " Code refactor related plugins {{{
 Plug 'AndrewRadev/splitjoin.vim'
+" }}}
+
+" Documentation generation related plugins {{{
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc-syntax'
 " }}}
 
 call plug#end()
