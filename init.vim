@@ -83,6 +83,7 @@ let g:blamer_enabled = 1
 Plug 'tpope/vim-fugitive'
 Plug 'rbong/vim-flog'
 Plug 'rhysd/git-messenger.vim'
+Plug 'gregsexton/gitv'
 " }}}
 
 " Markdown related plugins {{{
@@ -359,8 +360,8 @@ Plug 'AndrewRadev/splitjoin.vim'
 " }}}
 
 " Documentation generation related plugins {{{
-Plug 'vim-pandoc/vim-pandoc'
-Plug 'vim-pandoc/vim-pandoc-syntax'
+" Plug 'vim-pandoc/vim-pandoc'
+" Plug 'vim-pandoc/vim-pandoc-syntax'
 " }}}
 
 call plug#end()
