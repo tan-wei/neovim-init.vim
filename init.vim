@@ -326,6 +326,9 @@ nmap <Space>j <Plug>(quickhl-cword-toggle)
 nmap <Space>] <Plug>(quickhl-tag-toggle)
 map H <Plug>(operator-quickhl-manual-this-motion)
 
+
+Plug 'mtdl9/vim-log-highlighting'
+
 " }}}
 
 " Indent related plugins {{{
