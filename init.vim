@@ -329,6 +329,9 @@ map H <Plug>(operator-quickhl-manual-this-motion)
 
 Plug 'mtdl9/vim-log-highlighting'
 
+Plug 'nvim-lua/plenary.nvim'
+Plug 'folke/todo-comments.nvim'
+
 " }}}
 
 " Indent related plugins {{{
@@ -452,3 +455,17 @@ set statusline+=%{NearestMethodOrFunction()}
 " you can add the following line to your vimrc
 autocmd VimEnter * call vista#RunForNearestMethodOrFunction()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Configurations of todo-comments.nvim
+lua << EOF
+  require("todo-comments").setup {
+    -- your configuration comes here
+    -- or leave it empty to use the default settings
+    -- refer to the configuration section below
+  }
+EOF
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+
