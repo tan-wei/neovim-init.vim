@@ -397,6 +397,14 @@ if has("mac") || has("unix")
         let &undodir=target_path
         set undofile
     endif
+elseif has("win64") || has("win32") || has("win16")
+    Plug 'simnalamburt/vim-mundo'
+
+	" Enable persistent undo so that undo history persists across vim sessions
+    set undofile
+    set undodir=~/.vim/undo
+	
+	nnoremap <F5> :MundoToggle<CR>
 endif
 
 " }}}
