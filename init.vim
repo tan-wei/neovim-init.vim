@@ -24,7 +24,7 @@ set termencoding=utf-8
 set encoding=utf-8
 set incsearch " incremental search
 set laststatus=2
-set list lcs=tab:\|\ 
+set list lcs=tab:\|\
 syntax enable
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -151,7 +151,7 @@ let g:NERDCommentEmptyLines = 1
 " Enable trimming of trailing whitespace when uncommenting
 let g:NERDTrimTrailingWhitespace = 1
 
-" Enable NERDCommenterToggle to check all selected lines is commented or not 
+" Enable NERDCommenterToggle to check all selected lines is commented or not
 let g:NERDToggleCheckAllLines = 1
 
 " Plug 'folke/todo-comments.nvim'
@@ -210,16 +210,16 @@ set nobackup
 Plug 'elentok/plaintasks.vim'
 " }}}
 
-" Coc {{{
+" General Copmletion related plugins {{{
 Plug 'neoclide/coc.nvim', {'branch':'release'}
 
 let g:coc_global_extensions = [ 'coc-json',
-                              \ 'coc-git', 
-							  \ 'coc-markdown-preview-enhanced', 
-							  \ 'coc-spell-checker',
-							  \ 'coc-lists',
-							  \ 'coc-snippets',
-							  \ 'coc-yank' ]
+                              \ 'coc-git',
+                              \ 'coc-markdown-preview-enhanced',
+                              \ 'coc-spell-checker',
+                              \ 'coc-lists',
+                              \ 'coc-snippets',
+                              \ 'coc-yank' ]
 
 " Config for 'coc-spell-checker'
 " <leader>aap for current paragraph
@@ -227,6 +227,12 @@ let g:coc_global_extensions = [ 'coc-json',
 
 vmap <leader>a <Plug>(coc-codeaction-selected)
 nmap <leader>a <Plug>(coc-codeaction-selected)
+
+
+" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+
+" " Use deoplete.
+" let g:deoplete#enable_at_startup = 1
 
 " }}}
 
@@ -369,6 +375,30 @@ Plug 'AndrewRadev/splitjoin.vim'
 " Documentation generation related plugins {{{
 " Plug 'vim-pandoc/vim-pandoc'
 " Plug 'vim-pandoc/vim-pandoc-syntax'
+" }}}
+
+" Undo management {{{
+
+" Cuase some error messages when exit
+if has("mac") || has("unix")
+    Plug 'mbbill/undotree'
+
+    nnoremap <F5> :UndotreeToggle<CR>
+
+    if has("persistent_undo")
+       let target_path = expand('~/.undodir')
+
+        " create the directory and any parent directories
+        " if the location does not exist.
+        if !isdirectory(target_path)
+            call mkdir(target_path, "p", 0700)
+        endif
+
+        let &undodir=target_path
+        set undofile
+    endif
+endif
+
 " }}}
 
 call plug#end()
