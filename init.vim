@@ -262,6 +262,7 @@ let g:AutoPairs             = {'(':')', '[':']', '{':'}',"'":"'",'"':'"', '```':
 let g:AutoPairsShortcutJump = '<C-n>'
 
 Plug 'tpope/vim-surround'
+Plug 'machakann/vim-sandwich'
 
 " }}}
 
