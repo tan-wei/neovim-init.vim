@@ -61,6 +61,7 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'liuchengxu/eleline.vim'
 Plug 'tpope/vim-repeat'
 Plug 'MattesGroeger/vim-bookmarks'
+Plug 'machakann/vim-highlightedyank'
 
 " Multi Cursor Default mapping
 let g:multi_cursor_use_default_mapping = 0
