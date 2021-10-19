@@ -62,6 +62,7 @@ Plug 'liuchengxu/eleline.vim'
 Plug 'tpope/vim-repeat'
 Plug 'MattesGroeger/vim-bookmarks'
 Plug 'machakann/vim-highlightedyank'
+Plug 'tpope/vim-abolish'
 
 " Multi Cursor Default mapping
 let g:multi_cursor_use_default_mapping = 0
