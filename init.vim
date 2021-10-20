@@ -379,6 +379,7 @@ Plug 'AndrewRadev/splitjoin.vim'
 " Documentation generation related plugins {{{
 " Plug 'vim-pandoc/vim-pandoc'
 " Plug 'vim-pandoc/vim-pandoc-syntax'
+" Plug 'kkoomen/vim-doge', { 'do': { -> doge#install() } }
 " }}}
 
 " Undo management {{{
