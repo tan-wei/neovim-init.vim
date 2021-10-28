@@ -306,6 +306,7 @@ noremap <leader>fp :<C-U><C-R>=printf("Leaderf gtags --previous %s", "")<CR><CR>
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'gfanto/fzf-lsp.nvim'
+Plug 'antoinemadec/coc-fzf'
 " }}}
 
 " Menus related plugins {{{
