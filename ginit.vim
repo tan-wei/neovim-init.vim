@@ -4,7 +4,13 @@ set mouse=a
 " Set Editor Font
 if exists(':GuiFont')
     " Use GuiFont! to ignore font errors
-    GuiFont agave Nerd Font:h10
+	" NOTE: Iosevka Nerd Font cauases 'bad fixed pitch metrics'
+    GuiFont! Iosevka Nerd Font:h10
+endif
+
+" Set Ligatures
+if exists(':GuiRenderLigatures')
+    GuiRenderLigatures 1
 endif
 
 " Disable GUI Tabline
