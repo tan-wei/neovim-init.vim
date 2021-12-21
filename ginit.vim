@@ -4,8 +4,8 @@ set mouse=a
 " Set Editor Font
 if exists(':GuiFont')
     " Use GuiFont! to ignore font errors
-	" NOTE: Iosevka Nerd Font cauases 'bad fixed pitch metrics'
-    GuiFont! Iosevka Nerd Font:h10
+	" NOTE: DejaVuSansMono Nerd Font cauases 'bad fixed pitch metrics'
+    GuiFont! DejaVuSansMono Nerd Font:h8
 endif
 
 " Set Ligatures
