@@ -188,6 +188,7 @@ Plug 'rust-lang/rust.vim'
 
 " Color Scheme related plugins {{{
 Plug 'overcache/NeoSolarized'
+Plug 'morhetz/gruvbox'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tomasr/molokai'
 Plug 'dracula/vim', { 'as': 'dracula' }
@@ -437,7 +438,8 @@ call plug#end()
 " Theme settings here
 
 if has("win64") || has("win32") || has("win16")
-    colorscheme NeoSolarized
+    " colorscheme NeoSolarized
+	colorscheme gruvbox
 elseif has("mac") || has("unix")
     colorscheme molokai
 endif
