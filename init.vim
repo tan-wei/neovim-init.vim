@@ -310,6 +310,8 @@ Plug 'gfanto/fzf-lsp.nvim'
 if has('mac') || has('unix')
     Plug 'antoinemadec/coc-fzf'
 endif
+
+Plug 'rhysd/clever-f.vim'
 " }}}
 
 " Menus related plugins {{{
