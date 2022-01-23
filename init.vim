@@ -25,6 +25,7 @@ set encoding=utf-8
 set incsearch " incremental search
 set laststatus=2
 set list lcs=tab:\|\
+
 syntax enable
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -357,7 +358,7 @@ Plug 'Yggdroot/indentLine'
 
 let g:indentLine_char_list  = ['|', '¦', '┆', '┊']
 " Keep our conceal setting
-" let g:indentLine_setConceal = 0
+let g:indentLine_setConceal = 0
 " }}}
 
 " Syntax checkers {{{
