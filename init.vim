@@ -193,6 +193,7 @@ Plug 'morhetz/gruvbox'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tomasr/molokai'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'ajmwagar/vim-deus'
 
 let g:molokai_original = 1
 let g:rehash256 = 1
@@ -442,7 +443,8 @@ call plug#end()
 
 if has("win64") || has("win32") || has("win16")
     " colorscheme NeoSolarized
-	colorscheme gruvbox
+	" colorscheme gruvbox
+	colorscheme deus
 elseif has("mac") || has("unix")
     colorscheme molokai
 endif
@@ -529,6 +531,3 @@ lua << EOF
   }
 EOF
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-
-
