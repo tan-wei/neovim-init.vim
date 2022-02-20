@@ -64,6 +64,7 @@ Plug 'tpope/vim-repeat'
 Plug 'MattesGroeger/vim-bookmarks'
 Plug 'machakann/vim-highlightedyank'
 Plug 'tpope/vim-abolish'
+Plug 'yegappan/mru'
 
 " Multi Cursor Default mapping
 let g:multi_cursor_use_default_mapping = 0
@@ -216,7 +217,7 @@ set nobackup
 Plug 'elentok/plaintasks.vim'
 " }}}
 
-" General Copmletion related plugins {{{
+" General Completion related plugins {{{
 Plug 'neoclide/coc.nvim', {'branch':'release'}
 
 let g:coc_global_extensions = [ 'coc-json',
