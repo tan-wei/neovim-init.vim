@@ -62,7 +62,10 @@ Plug 'bronson/vim-trailing-whitespace'
 Plug 'itchyny/vim-cursorword'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'ntpeters/vim-better-whitespace'
+
 Plug 'liuchengxu/eleline.vim'
+let g:eleline_powerline_fonts = 1
+
 Plug 'tpope/vim-repeat'
 Plug 'MattesGroeger/vim-bookmarks'
 Plug 'machakann/vim-highlightedyank'
