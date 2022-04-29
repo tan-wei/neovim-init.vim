@@ -23,7 +23,10 @@ set fileencodings=utf-8,gb18030,gbk,gb2312
 set termencoding=utf-8
 set encoding=utf-8
 set incsearch " incremental search
+
+" always display statusline
 set laststatus=2
+
 set list lcs=tab:\|\
 
 syntax enable
