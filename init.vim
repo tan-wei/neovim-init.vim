@@ -49,6 +49,12 @@ call plug#begin('~/.config/nvim/plugged')
 " General settings {{{
 if has('mac')
     let g:python3_host_prog = '/usr/local/bin/python3'
+    " Allow copy paste in neovim, especially for neovide
+    let g:neovide_input_use_logo = 1
+    map <D-v> "+p<CR>
+    map! <D-v> <C-R>+
+    tmap <D-v> <C-R>+
+    vmap <D-c> "+y<CR>
 endif
 " }}}
 
