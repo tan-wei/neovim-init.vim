@@ -31,6 +31,18 @@ if exists(':GuiScrollBar')
     GuiScrollBar 1
 endif
 
+" Settings for neovide
+if exists('g:neovide')
+    set guifont=SauceCodePro\ Nerd\ Font
+
+    " Allow copy paste in neovim
+    let g:neovide_input_use_logo = 1
+    map <D-v> "+p<CR>
+    map! <D-v> <C-R>+
+    tmap <D-v> <C-R>+
+    vmap <D-c> "+y<CR>
+endif
+
 " Right Click Context Menu (Copy-Cut-Paste)
 nnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>
 inoremap <silent><RightMouse> <Esc>:call GuiShowContextMenu()<CR>
