@@ -7,7 +7,7 @@ endif
 " Set Editor Font
 if exists(':GuiFont')
     " Use GuiFont! to ignore font errors
-	" NOTE: DejaVuSansMono Nerd Font cauases 'bad fixed pitch metrics'
+    " NOTE: DejaVuSansMono Nerd Font causes 'bad fixed pitch metrics'
     GuiFont! DejaVuSansMono Nerd Font:h8
 endif
 
@@ -33,14 +33,17 @@ endif
 
 " Settings for neovide
 if exists('g:neovide')
-    set guifont=SauceCodePro\ Nerd\ Font
-
-    " Allow copy paste in neovim
-    let g:neovide_input_use_logo = 1
-    map <D-v> "+p<CR>
-    map! <D-v> <C-R>+
-    tmap <D-v> <C-R>+
-    vmap <D-c> "+y<CR>
+    if has("win64") || has("win32") || has("win16")
+      set guifont=DejaVuSansMono\ Nerd\ Font:h8   
+    elseif has('mac')
+	    " Allow copy paste in neovim on MacOS
+	    set guifont=SauceCodePro\ Nerd\ Font
+        let g:neovide_input_use_logo = 1
+        map <D-v> "+p<CR>
+        map! <D-v> <C-R>+
+        tmap <D-v> <C-R>+
+        vmap <D-c> "+y<CR>
+    endif
 endif
 
 " Right Click Context Menu (Copy-Cut-Paste)
