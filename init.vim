@@ -441,6 +441,10 @@ xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 " }}}
 
+" Note taking related plugins {{{
+Plug 'jbyuki/venn.nvim'
+" }}}
+
 call plug#end()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
