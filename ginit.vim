@@ -6,9 +6,13 @@ endif
 
 " Set Editor Font
 if exists(':GuiFont')
-    " Use GuiFont! to ignore font errors
-    " NOTE: DejaVuSansMono Nerd Font causes 'bad fixed pitch metrics'
-    GuiFont! DejaVuSansMono Nerd Font:h8
+    if has("win64") || has("win32") || has("win16")
+        " Use GuiFont! to ignore font errors
+        " NOTE: DejaVuSansMono Nerd Font causes 'bad fixed pitch metrics'
+        GuiFont! DejaVuSansMono Nerd Font:h8
+    elseif has('mac')
+        GuiFont! DejaVuSansMono Nerd Font:h12
+    endif
 endif
 
 " Set Ligatures
