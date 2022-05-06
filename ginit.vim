@@ -38,7 +38,7 @@ endif
 " Settings for neovide
 if exists('g:neovide')
     if has("win64") || has("win32") || has("win16")
-      set guifont=DejaVuSansMono\ Nerd\ Font:h8   
+        set guifont=DejaVuSansMono\ Nerd\ Font:h8
     elseif has('mac')
 	    " Allow copy paste in neovim on MacOS
 	    set guifont=SauceCodePro\ Nerd\ Font
@@ -50,8 +50,10 @@ if exists('g:neovide')
     endif
 endif
 
-" Right Click Context Menu (Copy-Cut-Paste)
-nnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>
-inoremap <silent><RightMouse> <Esc>:call GuiShowContextMenu()<CR>
-xnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>gv
-snoremap <silent><RightMouse> <C-G>:call GuiShowContextMenu()<CR>gv
+if exists(':GuiScrollBar')
+    " Right Click Context Menu (Copy-Cut-Paste)
+    nnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>
+    inoremap <silent><RightMouse> <Esc>:call GuiShowContextMenu()<CR>
+    xnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>gv
+    snoremap <silent><RightMouse> <C-G>:call GuiShowContextMenu()<CR>gv
+endif
