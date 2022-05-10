@@ -70,7 +70,9 @@ Plug 'tpope/vim-repeat'
 Plug 'MattesGroeger/vim-bookmarks'
 Plug 'machakann/vim-highlightedyank'
 Plug 'tpope/vim-abolish'
+
 Plug 'yegappan/mru'
+let MRU_File = '~/.config/nvim/plugged/_nvim_mru_files'
 
 " Multi Cursor Default mapping
 let g:multi_cursor_use_default_mapping = 0
