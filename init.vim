@@ -134,6 +134,18 @@ let g:bullets_enabled_file_types = [
 let g:bullets_line_spacing = 1
 let g:bullets_pad_right    = 1
 let g:bullets_pad_right    = 0
+
+" TODO: The plugin should be well configured and trained
+Plug 'SidOfc/mkdx'
+
+let g:mkdx#settings     = { 'highlight': { 'enable': 1 },
+                        \ 'enter': { 'shift': 1 },
+                        \ 'links': { 'external': { 'enable': 1 } },
+                        \ 'toc': { 'text': 'Table of Contents', 'update_on_write': 0 },
+                        \ 'fold': { 'enable': 1 } }
+let g:polyglot_disabled = ['markdown'] " for vim-polyglot users, it loads Plasticboy's markdown
+                                       " plugin which unfortunately interferes with mkdx list indentation.
+									   
 " }}}
 
 
