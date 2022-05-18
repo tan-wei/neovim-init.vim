@@ -217,6 +217,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'ajmwagar/vim-deus'
 Plug 'joshdick/onedark.vim'
 Plug 'nanotech/jellybeans.vim'
+Plug 'jacoborus/tender.vim'
 
 let g:molokai_original = 1
 let g:rehash256 = 1
@@ -473,7 +474,8 @@ if has("win64") || has("win32") || has("win16")
 	" colorscheme gruvbox
 	" colorscheme deus
 	" colorscheme onedark
-	colorscheme jellybeans
+	" colorscheme jellybeans
+	colorscheme tender
 elseif has("mac") || has("unix")
     colorscheme molokai
 endif
