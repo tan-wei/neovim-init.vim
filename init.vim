@@ -220,6 +220,7 @@ Plug 'drewtempelmeyer/palenight.vim'
 Plug 'whatyouhide/vim-gotham'
 Plug 'itchyny/landscape.vim'
 Plug 'glepnir/zephyr-nvim'
+Plug 'marko-cerovac/material.nvim'
 
 let g:molokai_original = 1
 let g:rehash256 = 1
@@ -491,6 +492,7 @@ let g:available_colorschemes = [
 							   \ 'gotham',
 							   \ 'landscape',
 							   \ 'zephyr',
+							   \ 'material',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
