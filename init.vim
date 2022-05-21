@@ -214,6 +214,8 @@ Plug 'jacoborus/tender.vim'
 Plug 'savq/melange'
 Plug 'arcticicestudio/nord-vim'
 Plug 'rakr/vim-one'
+Plug 'mhartington/oceanic-next'
+Plug 'drewtempelmeyer/palenight.vim'
 
 let g:molokai_original = 1
 let g:rehash256 = 1
@@ -480,6 +482,8 @@ let g:available_colorschemes = [
                                \ 'molokai',
                                \ 'nord',
 							   \ 'one',
+							   \ 'OceanicNext',
+							   \ 'palenight',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
