@@ -198,6 +198,10 @@ Plug 'rust-lang/rust.vim'
 " }}}
 
 " Color Scheme related plugins {{{
+
+" Random choice a color scheme
+Plug 'Sammyalhashe/random_colorscheme.vim'
+
 Plug 'overcache/NeoSolarized'
 Plug 'morhetz/gruvbox'
 Plug 'altercation/vim-colors-solarized'
@@ -461,15 +465,20 @@ call plug#end()
 " Theme settings here
 
 if has("win64") || has("win32") || has("win16")
-    " colorscheme NeoSolarized
-	" colorscheme gruvbox
-	" colorscheme deus
-	" colorscheme onedark
-	" colorscheme jellybeans
-	" colorscheme tender
-	" colorscheme melange
-	colorscheme nord
+	let g:random_scheme = 1
+	let g:random_disabled = 0
+	
+	let g:available_colorschemes = [ 'NeoSolarized',
+	                               \ 'gruvbox',
+								   \ 'deus',
+								   \ 'onedark',
+								   \ 'jellybeans',
+								   \ 'tender',
+								   \ 'melange',
+								   \ 'molokai',
+								   \ 'nord' ]
 elseif has("mac") || has("unix")
+    let g:random_disabled = 1
     colorscheme molokai
 endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
