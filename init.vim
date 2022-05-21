@@ -208,6 +208,7 @@ Plug 'joshdick/onedark.vim'
 Plug 'nanotech/jellybeans.vim'
 Plug 'jacoborus/tender.vim'
 Plug 'savq/melange'
+Plug 'arcticicestudio/nord-vim'
 
 let g:molokai_original = 1
 let g:rehash256 = 1
@@ -466,7 +467,8 @@ if has("win64") || has("win32") || has("win16")
 	" colorscheme onedark
 	" colorscheme jellybeans
 	" colorscheme tender
-	colorscheme melange
+	" colorscheme melange
+	colorscheme nord
 elseif has("mac") || has("unix")
     colorscheme molokai
 endif
