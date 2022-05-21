@@ -127,8 +127,8 @@ Plug 'dkarter/bullets.vim'
 
 " Bullets.vim
 let g:bullets_enabled_file_types = [
-    \ 'markdown',
-    \]
+                                   \ 'markdown',
+                                   \]
 
 " Line spacing between bullets (1 = no blank lines, 2 = one blank line, etc.)
 let g:bullets_line_spacing = 1
@@ -188,9 +188,9 @@ set completeopt=menu,menuone
 noremap <c-z> <NOP>
 
 let g:ycm_semantic_triggers =  {
-           \ 'c,cpp,python,java,go,erlang,perl': ['re!\w{2}'],
-           \ 'cs,lua,javascript': ['re!\w{2}'],
-           \ }
+                               \ 'c,cpp,python,java,go,erlang,perl': ['re!\w{2}'],
+                               \ 'cs,lua,javascript': ['re!\w{2}'],
+                               \ }
 " }}}
 
 " Rust related plugins {{{
@@ -238,13 +238,15 @@ Plug 'elentok/plaintasks.vim'
 " General Completion related plugins {{{
 Plug 'neoclide/coc.nvim', {'branch':'release'}
 
-let g:coc_global_extensions = [ 'coc-json',
+let g:coc_global_extensions = [
+                              \ 'coc-json',
                               \ 'coc-git',
                               \ 'coc-markdown-preview-enhanced',
                               \ 'coc-spell-checker',
                               \ 'coc-lists',
                               \ 'coc-snippets',
-                              \ 'coc-yank' ]
+                              \ 'coc-yank'
+                              \ ]
 
 " Config for 'coc-spell-checker'
 " <leader>aap for current paragraph
@@ -433,11 +435,11 @@ if has("mac") || has("unix")
 elseif has("win64") || has("win32") || has("win16")
     Plug 'simnalamburt/vim-mundo'
 
-	" Enable persistent undo so that undo history persists across vim sessions
+    " Enable persistent undo so that undo history persists across vim sessions
     set undofile
     set undodir=~/.vim/undo
-	
-	nnoremap <F5> :MundoToggle<CR>
+
+    nnoremap <F5> :MundoToggle<CR>
 endif
 
 " }}}
@@ -463,24 +465,21 @@ call plug#end()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Theme settings here
+let g:random_scheme = 1
+let g:random_disabled = 0
 
-if has("win64") || has("win32") || has("win16")
-	let g:random_scheme = 1
-	let g:random_disabled = 0
-	
-	let g:available_colorschemes = [ 'NeoSolarized',
-	                               \ 'gruvbox',
-								   \ 'deus',
-								   \ 'onedark',
-								   \ 'jellybeans',
-								   \ 'tender',
-								   \ 'melange',
-								   \ 'molokai',
-								   \ 'nord' ]
-elseif has("mac") || has("unix")
-    let g:random_disabled = 1
-    colorscheme molokai
-endif
+let g:available_colorschemes = [
+                               \ 'NeoSolarized',
+                               \ 'gruvbox',
+                               \ 'deus',
+                               \ 'onedark',
+                               \ 'jellybeans',
+                               \ 'tender',
+                               \ 'melange',
+                               \ 'molokai',
+                               \ 'nord'
+                               \ ]
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
@@ -488,22 +487,22 @@ endif
 " wilder.nvim settings here
 
 call wilder#setup({
-      \ 'modes': [':', '/', '?'],
-      \ 'next_key': '<Tab>',
-      \ 'previous_key': '<S-Tab>',
-      \ 'accept_key': '<Down>',
-      \ 'reject_key': '<Up>',
-      \ })
+                  \ 'modes': [':', '/', '?'],
+                  \ 'next_key': '<Tab>',
+                  \ 'previous_key': '<S-Tab>',
+                  \ 'accept_key': '<Down>',
+                  \ 'reject_key': '<Up>',
+                  \ })
 
 call wilder#set_option('renderer', wilder#popupmenu_renderer({
-      \ 'highlighter': wilder#basic_highlighter(),
-      \ 'left': [
-      \   ' ', wilder#popupmenu_devicons(),
-      \ ],
-      \ 'right': [
-      \   ' ', wilder#popupmenu_scrollbar(),
-      \ ],
-      \ }))
+                                                             \ 'highlighter': wilder#basic_highlighter(),
+                                                             \ 'left': [
+                                                             \   ' ', wilder#popupmenu_devicons(),
+                                                             \ ],
+                                                             \ 'right': [
+                                                             \   ' ', wilder#popupmenu_scrollbar(),
+                                                             \ ],
+                                                             \ }))
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -525,16 +524,16 @@ let g:vista_default_executive = 'ctags'
 " instead of the default one for these filetypes when using `:Vista` without
 " specifying the executive.
 let g:vista_executive_for = {
-  \ 'cpp': 'vim_lsp',
-  \ 'php': 'vim_lsp',
-  \ }
+                            \ 'cpp': 'vim_lsp',
+                            \ 'php': 'vim_lsp',
+                            \ }
 
 " Declare the command including the executable and options used to generate ctags output
 " for some certain filetypes.The file path will be appened to your custom command.
 " For example:
 let g:vista_ctags_cmd = {
-      \ 'haskell': 'hasktags -x -o - -c',
-      \ }
+                        \ 'haskell': 'hasktags -x -o - -c',
+                        \ }
 
 " To enable fzf's preview window set g:vista_fzf_preview.
 " The elements of g:vista_fzf_preview will be passed as arguments to fzf#vim#with_preview()
