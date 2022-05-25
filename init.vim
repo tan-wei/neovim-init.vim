@@ -342,6 +342,7 @@ Plug 'itchyny/landscape.vim'
 Plug 'glepnir/zephyr-nvim'
 Plug 'marko-cerovac/material.nvim'
 Plug 'w0ng/vim-hybrid'
+Plug 'junegunn/seoul256.vim'
 
 let g:molokai_original = 1
 let g:rehash256 = 1
@@ -615,6 +616,7 @@ let g:available_colorschemes = [
 							   \ 'zephyr',
 							   \ 'material',
 							   \ 'hybrid',
+                               \ 'seoul256',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
