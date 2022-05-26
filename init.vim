@@ -343,6 +343,7 @@ Plug 'glepnir/zephyr-nvim'
 Plug 'marko-cerovac/material.nvim'
 Plug 'w0ng/vim-hybrid'
 Plug 'junegunn/seoul256.vim'
+Plug 'shaeinst/roshnivim-cs'
 
 let g:molokai_original = 1
 let g:rehash256 = 1
