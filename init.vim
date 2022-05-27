@@ -326,7 +326,11 @@ Plug 'Sammyalhashe/random_colorscheme.vim'
 Plug 'overcache/NeoSolarized'
 Plug 'morhetz/gruvbox'
 Plug 'altercation/vim-colors-solarized'
+
 Plug 'tomasr/molokai'
+let g:molokai_original = 1
+let g:rehash256 = 1
+
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'ajmwagar/vim-deus'
 Plug 'joshdick/onedark.vim'
@@ -346,8 +350,10 @@ Plug 'junegunn/seoul256.vim'
 Plug 'shaeinst/roshnivim-cs'
 Plug 'rafamadriz/neon'
 
-let g:molokai_original = 1
-let g:rehash256 = 1
+Plug 'Mofiqul/vscode.nvim'
+let g:vscode_style = "dark"
+
+
 
 set termguicolors
 set hlsearch
@@ -621,6 +627,7 @@ let g:available_colorschemes = [
                                \ 'seoul256',
                                \ 'rvcs',
                                \ 'neon',
+							   \ 'vscode',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
