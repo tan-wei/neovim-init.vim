@@ -353,7 +353,7 @@ Plug 'rafamadriz/neon'
 Plug 'Mofiqul/vscode.nvim'
 let g:vscode_style = "dark"
 
-
+Plug 'ray-x/aurora'
 
 set termguicolors
 set hlsearch
@@ -628,6 +628,7 @@ let g:available_colorschemes = [
                                \ 'rvcs',
                                \ 'neon',
 							   \ 'vscode',
+							   \ 'aurora',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
