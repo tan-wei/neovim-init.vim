@@ -627,8 +627,8 @@ let g:available_colorschemes = [
                                \ 'seoul256',
                                \ 'rvcs',
                                \ 'neon',
-							   \ 'vscode',
-							   \ 'aurora',
+                               \ 'vscode',
+                               \ 'aurora',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
