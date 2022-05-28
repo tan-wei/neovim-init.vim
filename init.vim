@@ -369,6 +369,7 @@ let g:despacio_Midnight = 1
 " let g:despacio_Pitch = 1
 
 Plug 'sainnhe/everforest'
+Plug 'cocopon/iceberg.vim'
 
 set termguicolors
 set hlsearch
@@ -647,6 +648,7 @@ let g:available_colorschemes = [
                                \ 'srcery',
                                \ 'despacio',
                                \ 'everforest',
+                               \ 'iceberg',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
