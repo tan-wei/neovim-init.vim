@@ -368,6 +368,8 @@ let g:despacio_Midnight = 1
 " Black Background"
 " let g:despacio_Pitch = 1
 
+Plug 'sainnhe/everforest'
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -644,6 +646,7 @@ let g:available_colorschemes = [
                                \ 'aurora',
                                \ 'srcery',
                                \ 'despacio',
+                               \ 'everforest',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
