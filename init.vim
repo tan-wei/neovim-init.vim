@@ -358,6 +358,16 @@ Plug 'ray-x/aurora'
 Plug 'srcery-colors/srcery-vim'
 let g:srcery_italic = 1
 
+Plug 'alessandroyorba/despacio'
+" Dark Grey Background
+" let g:despacio_Sunset = 1
+" Even Darker Grey Background
+" let g:despacio_Twilight = 1
+" Almost Black Background
+let g:despacio_Midnight = 1
+" Black Background"
+" let g:despacio_Pitch = 1
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -633,6 +643,7 @@ let g:available_colorschemes = [
                                \ 'vscode',
                                \ 'aurora',
                                \ 'srcery',
+                               \ 'despacio',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
