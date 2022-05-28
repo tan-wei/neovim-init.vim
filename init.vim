@@ -355,6 +355,9 @@ let g:vscode_style = "dark"
 
 Plug 'ray-x/aurora'
 
+Plug 'srcery-colors/srcery-vim'
+let g:srcery_italic = 1
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -629,6 +632,7 @@ let g:available_colorschemes = [
                                \ 'neon',
                                \ 'vscode',
                                \ 'aurora',
+                               \ 'srcery',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
