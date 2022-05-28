@@ -636,6 +636,7 @@ let g:available_colorschemes = [
                                \ 'OceanicNext',
                                \ 'palenight',
                                \ 'gotham',
+                               \ 'gotham256',
                                \ 'landscape',
                                \ 'zephyr',
                                \ 'material',
@@ -649,6 +650,13 @@ let g:available_colorschemes = [
                                \ 'despacio',
                                \ 'everforest',
                                \ 'iceberg',
+                               \ 'evening',
+                               \ 'desert',
+                               \ 'industry',
+                               \ 'koehler',
+                               \ 'pablo',
+                               \ 'torte',
+                               \ 'slate',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
