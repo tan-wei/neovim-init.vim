@@ -66,8 +66,11 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'easymotion/vim-easymotion'
 
-Plug 'liuchengxu/eleline.vim'
-let g:eleline_powerline_fonts = 1
+" Plug 'liuchengxu/eleline.vim'
+" let g:eleline_powerline_fonts = 1
+
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 Plug 'tpope/vim-repeat'
 Plug 'MattesGroeger/vim-bookmarks'
