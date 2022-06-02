@@ -381,6 +381,7 @@ Plug 'sainnhe/everforest'
 Plug 'cocopon/iceberg.vim'
 Plug 'sainnhe/sonokai'
 Plug 'fenetikm/falcon'
+Plug 'jordwalke/flatlandia'
 
 set termguicolors
 set hlsearch
@@ -670,6 +671,7 @@ let g:available_colorschemes = [
                                \ 'slate',
                                \ 'sonokai',
                                \ 'falcon',
+                               \ 'flatlandia',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
