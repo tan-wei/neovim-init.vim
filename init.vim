@@ -380,6 +380,7 @@ let g:despacio_Midnight = 1
 Plug 'sainnhe/everforest'
 Plug 'cocopon/iceberg.vim'
 Plug 'sainnhe/sonokai'
+Plug 'fenetikm/falcon'
 
 set termguicolors
 set hlsearch
@@ -668,6 +669,7 @@ let g:available_colorschemes = [
                                \ 'torte',
                                \ 'slate',
                                \ 'sonokai',
+                               \ 'falcon',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
