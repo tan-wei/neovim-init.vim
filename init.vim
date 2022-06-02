@@ -71,6 +71,7 @@ Plug 'easymotion/vim-easymotion'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+let g:airline_powerline_fonts = 1
 
 Plug 'tpope/vim-repeat'
 Plug 'MattesGroeger/vim-bookmarks'
