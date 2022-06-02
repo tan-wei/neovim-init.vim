@@ -291,6 +291,8 @@ let g:NERDTrimTrailingWhitespace = 1
 let g:NERDToggleCheckAllLines = 1
 
 " Plug 'folke/todo-comments.nvim'
+
+Plug 'numToStr/Comment.nvim'
 " }}}
 
 
@@ -744,4 +746,9 @@ lua << EOF
     -- refer to the configuration section below
   }
 EOF
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Configurations of Comment.nvim
+lua require('Comment').setup()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
