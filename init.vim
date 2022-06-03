@@ -673,7 +673,7 @@ let g:available_colorschemes = [
                                \ 'sonokai',
                                \ 'falcon',
                                \ 'flatlandia',
-                               \ 'lucid'
+                               \ 'lucid',
                                \ 'ron',
                                \ 'eleflord',
                                \ ]
