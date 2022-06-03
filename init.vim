@@ -674,6 +674,8 @@ let g:available_colorschemes = [
                                \ 'falcon',
                                \ 'flatlandia',
                                \ 'lucid'
+                               \ 'ron',
+                               \ 'eleflord',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
