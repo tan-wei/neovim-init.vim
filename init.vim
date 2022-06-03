@@ -382,6 +382,7 @@ Plug 'cocopon/iceberg.vim'
 Plug 'sainnhe/sonokai'
 Plug 'fenetikm/falcon'
 Plug 'jordwalke/flatlandia'
+Plug 'cseelus/vim-colors-lucid'
 
 set termguicolors
 set hlsearch
@@ -672,6 +673,7 @@ let g:available_colorschemes = [
                                \ 'sonokai',
                                \ 'falcon',
                                \ 'flatlandia',
+                               \ 'lucid'
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
