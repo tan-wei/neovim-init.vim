@@ -383,6 +383,7 @@ Plug 'sainnhe/sonokai'
 Plug 'fenetikm/falcon'
 Plug 'jordwalke/flatlandia'
 Plug 'cseelus/vim-colors-lucid'
+Plug 'olimorris/onedarkpro.nvim'
 
 set termguicolors
 set hlsearch
@@ -676,6 +677,7 @@ let g:available_colorschemes = [
                                \ 'lucid',
                                \ 'ron',
                                \ 'eleflord',
+                               \ 'onedarkpro',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
