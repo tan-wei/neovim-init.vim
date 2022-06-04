@@ -392,6 +392,8 @@ let g:alduin_Shout_Dragon_Aspect = 1
 " let g:alduin_Shout_Become_Ethereal = 1
 
 Plug 'tlhr/anderson.vim'
+Plug 'Badacadabra/vim-archery'
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -687,6 +689,7 @@ let g:available_colorschemes = [
                                \ 'apprentice',
                                \ 'alduin',
                                \ 'anderson',
+                               \ 'archery',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
