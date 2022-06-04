@@ -393,6 +393,7 @@ let g:alduin_Shout_Dragon_Aspect = 1
 
 Plug 'tlhr/anderson.vim'
 Plug 'Badacadabra/vim-archery'
+Plug 'sainnhe/gruvbox-material'
 
 set termguicolors
 set hlsearch
@@ -690,6 +691,7 @@ let g:available_colorschemes = [
                                \ 'alduin',
                                \ 'anderson',
                                \ 'archery',
+                               \ 'gruvbox-material',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
