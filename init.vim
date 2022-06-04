@@ -395,6 +395,12 @@ Plug 'tlhr/anderson.vim'
 Plug 'Badacadabra/vim-archery'
 Plug 'sainnhe/gruvbox-material'
 
+Plug 'sainnhe/edge'
+" let g:edge_style = 'default'
+" let g:edge_style = 'aura'
+let g:edge_style         = 'neon'
+let g:edge_enable_italic = 1
+
 set termguicolors
 set hlsearch
 set nobackup
