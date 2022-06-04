@@ -358,9 +358,6 @@ Plug 'w0ng/vim-hybrid'
 Plug 'junegunn/seoul256.vim'
 Plug 'shaeinst/roshnivim-cs'
 
-Plug 'rafamadriz/neon'
-let g:neon_style = "dark"
-
 Plug 'Mofiqul/vscode.nvim'
 let g:vscode_style = "dark"
 
@@ -666,7 +663,6 @@ let g:available_colorschemes = [
                                \ 'hybrid',
                                \ 'seoul256',
                                \ 'rvcs',
-                               \ 'neon',
                                \ 'vscode',
                                \ 'aurora',
                                \ 'srcery',
