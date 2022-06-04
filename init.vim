@@ -386,6 +386,12 @@ Plug 'cseelus/vim-colors-lucid'
 Plug 'olimorris/onedarkpro.nvim'
 Plug 'romainl/Apprentice'
 
+Plug 'AlessandroYorba/Alduin'
+" Almost Black Background
+let g:alduin_Shout_Dragon_Aspect = 1
+" Black Background
+" let g:alduin_Shout_Become_Ethereal = 1
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -680,6 +686,7 @@ let g:available_colorschemes = [
                                \ 'eleflord',
                                \ 'onedarkpro',
                                \ 'apprentice',
+                               \ 'alduin',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
