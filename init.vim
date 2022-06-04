@@ -384,6 +384,7 @@ Plug 'fenetikm/falcon'
 Plug 'jordwalke/flatlandia'
 Plug 'cseelus/vim-colors-lucid'
 Plug 'olimorris/onedarkpro.nvim'
+Plug 'romainl/Apprentice'
 
 set termguicolors
 set hlsearch
@@ -678,6 +679,7 @@ let g:available_colorschemes = [
                                \ 'ron',
                                \ 'eleflord',
                                \ 'onedarkpro',
+                               \ 'apprentice',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
