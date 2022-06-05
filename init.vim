@@ -411,6 +411,10 @@ let ayucolor = "dark"
 
 Plug 'NLKNguyen/papercolor-theme'
 
+Plug 'chriskempson/base16-vim'
+let base16colorspace = 256
+
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -709,6 +713,7 @@ let g:available_colorschemes = [
                                \ 'gruvbox-material',
                                \ 'ayu',
                                \ 'PaperColor',
+                               \ 'base-16-default-dark',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
