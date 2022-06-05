@@ -426,6 +426,7 @@ Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'flazz/vim-colorschemes'
 Plug 'liuchengxu/space-vim-dark'
 Plug 'jaredgorski/SpaceCamp'
+Plug 'arzg/vim-substrata'
 
 set termguicolors
 set hlsearch
@@ -742,6 +743,7 @@ let g:available_colorschemes = [
                                \ 'spacecamp',
                                \ 'lizard256',
                                \ 'wombat256',
+                               \ 'substrata',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
