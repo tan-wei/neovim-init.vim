@@ -728,6 +728,9 @@ let g:available_colorschemes = [
                                \ 'rigel',
                                \ 'neodark',
                                \ 'github_dark',
+                               \ 'github_dark_colorblind',
+                               \ 'github_dark_default',
+                               \ 'github_dimmed',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
