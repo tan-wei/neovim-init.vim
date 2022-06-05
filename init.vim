@@ -713,7 +713,6 @@ let g:available_colorschemes = [
                                \ 'koehler',
                                \ 'pablo',
                                \ 'torte',
-                               \ 'slate',
                                \ 'sonokai',
                                \ 'falcon',
                                \ 'flatlandia',
