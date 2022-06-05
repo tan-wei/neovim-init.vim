@@ -740,6 +740,8 @@ let g:available_colorschemes = [
                                \ 'dracula',
                                \ 'space-vim-dark',
                                \ 'spacecamp',
+                               \ 'lizard256',
+                               \ 'wombat256',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
