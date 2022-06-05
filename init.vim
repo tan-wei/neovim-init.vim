@@ -414,6 +414,8 @@ Plug 'NLKNguyen/papercolor-theme'
 Plug 'chriskempson/base16-vim'
 let base16colorspace = 256
 
+Plug 'rebelot/kanagawa.nvim'
+
 
 set termguicolors
 set hlsearch
@@ -717,6 +719,7 @@ let g:available_colorschemes = [
                                \ 'PaperColor',
                                \ 'base16-default-dark',
                                \ 'base16-oceanicnext',
+                               \ 'kanagawa',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
