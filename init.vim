@@ -406,6 +406,9 @@ Plug 'sainnhe/edge'
 let g:edge_style         = 'neon'
 let g:edge_enable_italic = 1
 
+Plug 'ayu-theme/ayu-vim'
+let ayucolor = "dark"
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -702,6 +705,7 @@ let g:available_colorschemes = [
                                \ 'alduin',
                                \ 'anderson',
                                \ 'gruvbox-material',
+                               \ 'ayu',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
