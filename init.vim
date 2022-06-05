@@ -735,6 +735,7 @@ let g:available_colorschemes = [
                                \ 'github_dimmed',
                                \ 'nightfox',
                                \ 'tokyonight',
+                               \ 'dracula',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
