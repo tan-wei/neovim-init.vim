@@ -392,7 +392,6 @@ let g:alduin_Shout_Dragon_Aspect = 1
 " let g:alduin_Shout_Become_Ethereal = 1
 
 Plug 'tlhr/anderson.vim'
-Plug 'Badacadabra/vim-archery'
 
 Plug 'sainnhe/gruvbox-material'
 " let g:gruvbox_material_background = 'hard'
@@ -702,7 +701,6 @@ let g:available_colorschemes = [
                                \ 'apprentice',
                                \ 'alduin',
                                \ 'anderson',
-                               \ 'archery',
                                \ 'gruvbox-material',
                                \ ]
 
