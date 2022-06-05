@@ -423,6 +423,7 @@ let g:neodark#italics = 1
 Plug 'projekt0n/github-nvim-theme'
 Plug 'EdenEast/nightfox.nvim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'flazz/vim-colorschemes'
 
 set termguicolors
 set hlsearch
