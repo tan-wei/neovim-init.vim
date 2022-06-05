@@ -715,8 +715,8 @@ let g:available_colorschemes = [
                                \ 'gruvbox-material',
                                \ 'ayu',
                                \ 'PaperColor',
-                               \ 'base-16-default-dark',
-                               \ 'base-oceanicnext',
+                               \ 'base16-default-dark',
+                               \ 'base16-oceanicnext',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
