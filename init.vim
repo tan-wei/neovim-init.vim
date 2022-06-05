@@ -425,6 +425,7 @@ Plug 'EdenEast/nightfox.nvim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'flazz/vim-colorschemes'
 Plug 'liuchengxu/space-vim-dark'
+Plug 'jaredgorski/SpaceCamp'
 
 set termguicolors
 set hlsearch
@@ -739,6 +740,7 @@ let g:available_colorschemes = [
                                \ 'tokyonight',
                                \ 'dracula',
                                \ 'space-vim-dark',
+                               \ 'spacecamp',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
