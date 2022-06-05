@@ -714,6 +714,7 @@ let g:available_colorschemes = [
                                \ 'ayu',
                                \ 'PaperColor',
                                \ 'base-16-default-dark',
+                               \ 'base-oceanicnext',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
