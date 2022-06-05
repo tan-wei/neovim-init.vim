@@ -420,6 +420,8 @@ Plug 'Rigellute/rigel'
 Plug 'KeitaNakamura/neodark.vim'
 let g:neodark#italics = 1
 
+Plug 'projekt0n/github-nvim-theme'
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -725,6 +727,7 @@ let g:available_colorschemes = [
                                \ 'kanagawa',
                                \ 'rigel',
                                \ 'neodark',
+                               \ 'github_dark',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
