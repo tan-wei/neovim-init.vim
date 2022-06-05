@@ -415,7 +415,7 @@ Plug 'chriskempson/base16-vim'
 let base16colorspace = 256
 
 Plug 'rebelot/kanagawa.nvim'
-
+Plug 'Rigellute/rigel'
 
 set termguicolors
 set hlsearch
@@ -720,6 +720,7 @@ let g:available_colorschemes = [
                                \ 'base16-default-dark',
                                \ 'base16-oceanicnext',
                                \ 'kanagawa',
+                               \ 'rigel',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
