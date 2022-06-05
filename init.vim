@@ -417,6 +417,9 @@ let base16colorspace = 256
 Plug 'rebelot/kanagawa.nvim'
 Plug 'Rigellute/rigel'
 
+Plug 'KeitaNakamura/neodark.vim'
+let g:neodark#italics = 1
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -721,6 +724,7 @@ let g:available_colorschemes = [
                                \ 'base16-oceanicnext',
                                \ 'kanagawa',
                                \ 'rigel',
+                               \ 'neodark',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
