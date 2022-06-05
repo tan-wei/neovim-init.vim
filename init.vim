@@ -409,6 +409,8 @@ let g:edge_enable_italic = 1
 Plug 'ayu-theme/ayu-vim'
 let ayucolor = "dark"
 
+Plug 'NLKNguyen/papercolor-theme'
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -706,6 +708,7 @@ let g:available_colorschemes = [
                                \ 'anderson',
                                \ 'gruvbox-material',
                                \ 'ayu',
+                               \ 'PaperColor',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
