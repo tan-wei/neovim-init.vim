@@ -459,6 +459,8 @@ nmap <leader>a <Plug>(coc-codeaction-selected)
 " " Use deoplete.
 " let g:deoplete#enable_at_startup = 1
 
+Plug 'luochen1990/rainbow'
+let g:rainbow_active = 1
 " }}}
 
 " Search tools {{{
