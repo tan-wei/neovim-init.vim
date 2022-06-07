@@ -246,6 +246,7 @@ let g:limelight_priority = -1
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
 
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 " }}}
 
 " Git related plugins {{{
