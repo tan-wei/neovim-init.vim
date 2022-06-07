@@ -427,6 +427,7 @@ Plug 'flazz/vim-colorschemes'
 Plug 'liuchengxu/space-vim-dark'
 Plug 'jaredgorski/SpaceCamp'
 Plug 'arzg/vim-substrata'
+Plug 'mhinz/vim-janah'
 
 set termguicolors
 set hlsearch
@@ -743,6 +744,7 @@ let g:available_colorschemes = [
                                \ 'lizard256',
                                \ 'wombat256',
                                \ 'substrata',
+                               \ 'janah',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
