@@ -213,6 +213,7 @@ nnoremap <silent> <Space>bw :BufferOrderByWindowNumber<CR>
 " :BarbarDisable - very bad command, should never be used
 
 Plug 'wellle/context.vim'
+Plug 'junegunn/goyo.vim'
 " }}}
 
 " Git related plugins {{{
