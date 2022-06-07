@@ -214,6 +214,11 @@ nnoremap <silent> <Space>bw :BufferOrderByWindowNumber<CR>
 
 Plug 'wellle/context.vim'
 Plug 'junegunn/goyo.vim'
+
+Plug 'junegunn/limelight.vim'
+nmap <Leader>l <Plug>(Limelight)
+xmap <Leader>l <Plug>(Limelight)
+
 " }}}
 
 " Git related plugins {{{
