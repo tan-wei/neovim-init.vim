@@ -462,6 +462,7 @@ Plug 'liuchengxu/space-vim-dark'
 Plug 'jaredgorski/SpaceCamp'
 Plug 'arzg/vim-substrata'
 Plug 'mhinz/vim-janah'
+Plug 'embark-theme/vim', { 'as': 'embark', 'branch': 'main' }
 
 set termguicolors
 set hlsearch
@@ -779,6 +780,7 @@ let g:available_colorschemes = [
                                \ 'wombat256',
                                \ 'substrata',
                                \ 'janah',
+                               \ 'embark',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
