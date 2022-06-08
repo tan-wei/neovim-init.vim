@@ -465,6 +465,7 @@ Plug 'arzg/vim-substrata'
 Plug 'mhinz/vim-janah'
 Plug 'embark-theme/vim', { 'as': 'embark', 'branch': 'main' }
 Plug 'Rigellute/shades-of-purple.vim'
+Plug 'kyazdani42/blue-moon'
 
 set termguicolors
 set hlsearch
@@ -785,6 +786,7 @@ let g:available_colorschemes = [
                                \ 'embark',
                                \ 'shades_of_purple',
                                \ 'shades-of-teal',
+                               \ 'blue-moon',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
