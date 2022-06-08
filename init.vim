@@ -249,9 +249,9 @@ autocmd! User GoyoLeave Limelight!
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'sheerun/vim-polyglot'
 
-if has("win64") || has("win32") || has("win16")
-    Plug 'sidebar-nvim/sidebar.nvim'
-endif
+" TODO: Disable siderbar.nvim, due to its error messages
+" Plug 'sidebar-nvim/sidebar.nvim'
+
 
 " }}}
 
@@ -760,9 +760,6 @@ let g:available_colorschemes = [
                                \ 'everforest',
                                \ 'iceberg',
                                \ 'evening',
-                               \ 'koehler',
-                               \ 'pablo',
-                               \ 'torte',
                                \ 'sonokai',
                                \ 'falcon',
                                \ 'flatlandia',
@@ -906,24 +903,23 @@ lua require('Comment').setup()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Configurations of sidebar.nvim
-if has("win64") || has("win32") || has("win16")
-lua << EOF
-  require("sidebar-nvim").setup({
-    disable_default_keybindings = 0,
-    bindings = nil,
-    open = false,
-    side = "left",
-    initial_width = 35,
-    hide_statusline = false,
-    update_interval = 1000,
-    sections = { "datetime", "git", "diagnostics" },
-    section_separator = {"", "-----", ""},
-    containers = {
-      attach_shell = "/bin/sh", show_all = true, interval = 5000,
-    },
-    datetime = { format = "%a %b %d, %H:%M", clocks = { { name = "local" } } },
-    todos = { ignored_paths = { "~" } },
-  })
-EOF
-endif
+" TODO: Disable siderbar.nvim, due to its error messages
+" lua << EOF
+"   require("sidebar-nvim").setup({
+"     disable_default_keybindings = 0,
+"     bindings = nil,
+"     open = false,
+"     side = "left",
+"     initial_width = 35,
+"     hide_statusline = false,
+"     update_interval = 1000,
+"     sections = { "datetime", "git", "diagnostics" },
+"     section_separator = {"", "-----", ""},
+"     containers = {
+"       attach_shell = "/bin/sh", show_all = true, interval = 5000,
+"     },
+"     datetime = { format = "%a %b %d, %H:%M", clocks = { { name = "local" } } },
+"     todos = { ignored_paths = { "~" } },
+"   })
+" EOF
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
