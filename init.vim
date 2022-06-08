@@ -249,7 +249,9 @@ autocmd! User GoyoLeave Limelight!
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'sheerun/vim-polyglot'
 
-Plug 'sidebar-nvim/sidebar.nvim'
+if has("win64") || has("win32") || has("win16")
+    Plug 'sidebar-nvim/sidebar.nvim'
+endif
 
 " }}}
 
