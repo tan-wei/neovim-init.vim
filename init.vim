@@ -480,6 +480,7 @@ let g:quantum_black   = 1
 let g:quantum_italics = 1
 
 Plug 'jnurmine/zenburn'
+Plug 'kvrohit/rasmus.nvim'
 
 set termguicolors
 set hlsearch
@@ -801,6 +802,7 @@ let g:available_colorschemes = [
                                \ '0x7A69_dark',
                                \ 'quantum',
                                \ 'zenburn',
+                               \ 'rasmus',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
