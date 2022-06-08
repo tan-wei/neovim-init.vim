@@ -793,6 +793,7 @@ let g:available_colorschemes = [
                                \ 'blue-moon',
                                \ 'challenger_deep',
                                \ 'angr',
+                               \ '0x7A69_dark',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
