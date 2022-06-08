@@ -901,6 +901,7 @@ lua require('Comment').setup()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Configurations of sidebar.nvim
+if has("win64") || has("win32") || has("win16")
 lua << EOF
   require("sidebar-nvim").setup({
     disable_default_keybindings = 0,
@@ -919,4 +920,5 @@ lua << EOF
     todos = { ignored_paths = { "~" } },
   })
 EOF
+endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
