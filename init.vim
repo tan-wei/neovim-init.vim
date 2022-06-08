@@ -248,6 +248,9 @@ autocmd! User GoyoLeave Limelight!
 
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'sheerun/vim-polyglot'
+
+Plug 'sidebar-nvim/sidebar.nvim'
+
 " }}}
 
 " Git related plugins {{{
@@ -880,15 +883,37 @@ nnoremap <silent><nowait> <space>m :<C-u>Vista!!<cr>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Configurations of todo-comments.nvim
 lua << EOF
-  require("todo-comments").setup {
+  require("todo-comments").setup({
     -- your configuration comes here
     -- or leave it empty to use the default settings
     -- refer to the configuration section below
-  }
+  })
 EOF
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Configurations of Comment.nvim
 lua require('Comment').setup()
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Configurations of sidebar.nvim
+lua << EOF
+  require("sidebar-nvim").setup({
+    disable_default_keybindings = 0,
+    bindings = nil,
+    open = false,
+    side = "left",
+    initial_width = 35,
+    hide_statusline = false,
+    update_interval = 1000,
+    sections = { "datetime", "git", "diagnostics" },
+    section_separator = {"", "-----", ""},
+    containers = {
+      attach_shell = "/bin/sh", show_all = true, interval = 5000,
+    },
+    datetime = { format = "%a %b %d, %H:%M", clocks = { { name = "local" } } },
+    todos = { ignored_paths = { "~" } },
+  })
+EOF
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
