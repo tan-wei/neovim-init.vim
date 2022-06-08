@@ -480,7 +480,11 @@ let g:quantum_black   = 1
 let g:quantum_italics = 1
 
 Plug 'jnurmine/zenburn'
+
 Plug 'kvrohit/rasmus.nvim'
+let g:rasmus_italic_functions = 1
+let g:rasmus_bold_functions   = 1
+let g:rasmus_variant          = "monochrome"
 
 set termguicolors
 set hlsearch
