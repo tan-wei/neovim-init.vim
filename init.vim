@@ -749,8 +749,6 @@ let g:available_colorschemes = [
                                \ 'everforest',
                                \ 'iceberg',
                                \ 'evening',
-                               \ 'desert',
-                               \ 'industry',
                                \ 'koehler',
                                \ 'pablo',
                                \ 'torte',
