@@ -479,6 +479,8 @@ Plug 'tyrannicaltoucan/vim-quantum'
 let g:quantum_black   = 1
 let g:quantum_italics = 1
 
+Plug 'jnurmine/zenburn'
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -798,6 +800,7 @@ let g:available_colorschemes = [
                                \ 'angr',
                                \ '0x7A69_dark',
                                \ 'quantum',
+                               \ 'zenburn',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
