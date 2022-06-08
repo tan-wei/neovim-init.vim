@@ -247,6 +247,7 @@ autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
 
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+Plug 'sheerun/vim-polyglot'
 " }}}
 
 " Git related plugins {{{
