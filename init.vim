@@ -300,9 +300,11 @@ let g:bullets_enabled_file_types = [
                                    \]
 
 " Line spacing between bullets (1 = no blank lines, 2 = one blank line, etc.)
-let g:bullets_line_spacing = 1
-let g:bullets_pad_right    = 1
-let g:bullets_pad_right    = 0
+let g:bullets_line_spacing             = 1
+let g:bullets_pad_right                = 1
+let g:bullets_pad_right                = 0
+let g:bullets_checkbox_partials_toggle = 1
+let g:bullets_checkbox_markers         = ' .oOX' " or '✗○◐●✓'
 
 " }}}
 
