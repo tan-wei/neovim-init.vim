@@ -784,6 +784,7 @@ let g:available_colorschemes = [
                                \ 'janah',
                                \ 'embark',
                                \ 'shades_of_purple',
+                               \ 'shades-of-teal',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
