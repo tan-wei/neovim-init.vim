@@ -468,6 +468,7 @@ Plug 'embark-theme/vim', { 'as': 'embark', 'branch': 'main' }
 Plug 'Rigellute/shades-of-purple.vim'
 Plug 'kyazdani42/blue-moon'
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
+Plug 'zacanger/angr.vim'
 
 set termguicolors
 set hlsearch
@@ -788,6 +789,7 @@ let g:available_colorschemes = [
                                \ 'shades-of-teal',
                                \ 'blue-moon',
                                \ 'challenger_deep',
+                               \ 'angr',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
