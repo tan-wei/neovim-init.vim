@@ -475,6 +475,10 @@ Plug 'kyazdani42/blue-moon'
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
 Plug 'zacanger/angr.vim'
 
+Plug 'tyrannicaltoucan/vim-quantum'
+let g:quantum_black   = 1
+let g:quantum_italics = 1
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -796,6 +800,7 @@ let g:available_colorschemes = [
                                \ 'challenger_deep',
                                \ 'angr',
                                \ '0x7A69_dark',
+                               \ 'quantum',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
