@@ -464,6 +464,7 @@ Plug 'jaredgorski/SpaceCamp'
 Plug 'arzg/vim-substrata'
 Plug 'mhinz/vim-janah'
 Plug 'embark-theme/vim', { 'as': 'embark', 'branch': 'main' }
+Plug 'Rigellute/shades-of-purple.vim'
 
 set termguicolors
 set hlsearch
@@ -782,6 +783,7 @@ let g:available_colorschemes = [
                                \ 'substrata',
                                \ 'janah',
                                \ 'embark',
+                               \ 'shades_of_purple',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
