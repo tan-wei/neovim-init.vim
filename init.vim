@@ -488,6 +488,17 @@ let g:rasmus_italic_functions = 1
 let g:rasmus_bold_functions   = 1
 let g:rasmus_variant          = "monochrome"
 
+Plug 'sjl/badwolf'
+" Make the gutters darker than the background.
+let g:badwolf_darkgutter = 1
+" Make the tab line:
+"                   0 darker than the background
+"                   1 the same color as the background.
+"                   2 lighter than the background
+"                   3 much lighter than the background
+let g:badwolf_tabline    = 2
+
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -809,6 +820,7 @@ let g:available_colorschemes = [
                                \ 'quantum',
                                \ 'zenburn',
                                \ 'rasmus',
+                               \ 'badwolf',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
