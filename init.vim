@@ -505,6 +505,8 @@ let g:spacegray_underline_search = 1
 let g:spacegray_use_italics      = 1
 let g:spacegray_low_contrast     = 1
 
+Plug 'sonph/onehalf'
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -829,6 +831,7 @@ let g:available_colorschemes = [
                                \ 'badwolf',
                                \ 'railscasts',
                                \ 'spacegray',
+                               \ 'onehalf',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
