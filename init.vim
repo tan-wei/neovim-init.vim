@@ -498,6 +498,7 @@ let g:badwolf_darkgutter = 1
 "                   3 much lighter than the background
 let g:badwolf_tabline    = 2
 
+Plug 'jpo/vim-railscasts-theme'
 
 set termguicolors
 set hlsearch
@@ -821,6 +822,7 @@ let g:available_colorschemes = [
                                \ 'zenburn',
                                \ 'rasmus',
                                \ 'badwolf',
+                               \ 'railscasts',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
