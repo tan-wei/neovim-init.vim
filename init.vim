@@ -534,6 +534,13 @@ let g:spacegray_low_contrast     = 1
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'tjdevries/colorbuddy.nvim'
 
+Plug 'luisiacc/gruvbox-baby', {'branch': 'main'}
+let g:gruvbox_baby_function_style   = "bold"
+let g:gruvbox_baby_keyword_style    = "italic"
+let g:gruvbox_baby_telescope_theme  = 1
+let g:gruvbox_baby_transparent_mode = 1
+
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -859,6 +866,7 @@ let g:available_colorschemes = [
                                \ 'spacegray',
                                \ 'onehalfdark',
                                \ 'cobalt2',
+                               \ 'gruvbox-baby',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
