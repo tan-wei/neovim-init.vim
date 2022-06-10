@@ -532,6 +532,7 @@ let g:spacegray_use_italics      = 1
 let g:spacegray_low_contrast     = 1
 
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'tjdevries/colorbuddy.nvim'
 
 set termguicolors
 set hlsearch
@@ -858,6 +859,7 @@ let g:available_colorschemes = [
                                \ 'railscasts',
                                \ 'spacegray',
                                \ 'onehalfdark',
+                               \ 'cobalt2',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
