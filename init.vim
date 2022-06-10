@@ -324,6 +324,14 @@ let g:markdrawer_toc               = 'full_index' " displays as a TOC, no index 
 
 nnoremap <Leader>md :MarkDrawer<cr>
 
+" vim-markdown-toc
+Plug 'mzlogin/vim-markdown-toc'
+
+let g:vmt_auto_update_on_save     = 0
+let g:vmt_dont_insert_fence       = 0
+let g:vmt_cycle_list_item_markers = 1
+let g:vmt_fence_text              = 'TOC'
+let g:vmt_fence_closing_text      = '/TOC'
 " }}}
 
 
