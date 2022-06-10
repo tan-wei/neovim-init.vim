@@ -306,6 +306,24 @@ let g:bullets_pad_right                = 0
 let g:bullets_checkbox_partials_toggle = 1
 let g:bullets_checkbox_markers         = ' .oOX' " or '✗○◐●✓'
 
+" markdown-drawer
+Plug 'Scuilion/markdown-drawer'
+
+let g:markdrawer_prefix            = " "
+let g:markdrawer_goto              = "o"
+let g:markdrawerDelete             = "D"
+let g:markdrawer_width             = "25"
+let g:markdrawer_paste_below       = "p"
+let g:markdrawer_increase          = "+"
+let g:markdrawer_decrease          = "-"
+let g:markdrawer_to_delete_color   = "Red"
+
+let g:markdrawer_drawer_max_levels = 4 " max levels to display
+let g:markdrawer_toc               = 'index' " displays as a TOC
+let g:markdrawer_toc               = 'full_index' " displays as a TOC, no index reset
+
+nnoremap <Leader>md :MarkDrawer<cr>
+
 " }}}
 
 
