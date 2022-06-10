@@ -819,7 +819,6 @@ let g:available_colorschemes = [
                                \ 'falcon',
                                \ 'flatlandia',
                                \ 'lucid',
-                               \ 'ron',
                                \ 'onedarkpro',
                                \ 'apprentice',
                                \ 'alduin',
