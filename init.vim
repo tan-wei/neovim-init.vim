@@ -480,8 +480,11 @@ let ayucolor = "dark"
 
 Plug 'NLKNguyen/papercolor-theme'
 
-Plug 'chriskempson/base16-vim'
-let base16colorspace = 256
+" Colorscheme collections
+" NOTE: They are disabled because they're not updated to the latest version
+" Plug 'flazz/vim-colorschemes'
+" Plug 'chriskempson/base16-vim'
+" let base16colorspace = 256
 
 Plug 'rebelot/kanagawa.nvim'
 Plug 'Rigellute/rigel'
@@ -492,7 +495,7 @@ let g:neodark#italics = 1
 Plug 'projekt0n/github-nvim-theme'
 Plug 'EdenEast/nightfox.nvim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-Plug 'flazz/vim-colorschemes'
+
 Plug 'liuchengxu/space-vim-dark'
 Plug 'jaredgorski/SpaceCamp'
 Plug 'arzg/vim-substrata'
@@ -540,6 +543,7 @@ let g:gruvbox_baby_keyword_style    = "italic"
 let g:gruvbox_baby_telescope_theme  = 1
 let g:gruvbox_baby_transparent_mode = 1
 
+Plug 'lalitmee/cobalt2.nvim'
 
 set termguicolors
 set hlsearch
