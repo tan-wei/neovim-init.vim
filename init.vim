@@ -563,6 +563,7 @@ let g:enfocado_plugins = [
   \ ]
 
 Plug 'yonlu/omni.vim'
+Plug 'vim-scripts/wombat256.vim'
 
 set termguicolors
 set hlsearch
@@ -887,6 +888,7 @@ let g:available_colorschemes = [
                                \ 'gruvbox-baby',
                                \ 'enfocado',
                                \ 'omni',
+                               \ 'wombat256',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
