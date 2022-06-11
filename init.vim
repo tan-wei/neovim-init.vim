@@ -565,6 +565,7 @@ let g:enfocado_plugins = [
 Plug 'yonlu/omni.vim'
 Plug 'vim-scripts/wombat256.vim'
 Plug 'rockerBOO/boo-colorscheme-nvim'
+Plug 'windwp/wind-colors'
 
 set termguicolors
 set hlsearch
@@ -891,6 +892,7 @@ let g:available_colorschemes = [
                                \ 'omni',
                                \ 'wombat256mod',
                                \ 'boo',
+                               \ 'wind',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
