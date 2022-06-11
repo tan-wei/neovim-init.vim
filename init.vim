@@ -544,7 +544,9 @@ let g:gruvbox_baby_telescope_theme  = 1
 let g:gruvbox_baby_transparent_mode = 1
 
 Plug 'lalitmee/cobalt2.nvim'
+
 Plug 'wuelnerdotexe/vim-enfocado'
+let g:enfocado_style = 'nature' " Available: `nature` or `neon`.
 
 set termguicolors
 set hlsearch
