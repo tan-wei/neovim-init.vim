@@ -559,6 +559,8 @@ let g:enfocado_plugins = [
   \ 'yank',
   \ ]
 
+Plug 'yonlu/omni.vim'
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -851,8 +853,6 @@ let g:available_colorschemes = [
                                \ 'gruvbox-material',
                                \ 'ayu',
                                \ 'PaperColor',
-                               \ 'base16-default-dark',
-                               \ 'base16-oceanicnext',
                                \ 'kanagawa',
                                \ 'rigel',
                                \ 'neodark',
@@ -865,8 +865,6 @@ let g:available_colorschemes = [
                                \ 'dracula',
                                \ 'space-vim-dark',
                                \ 'spacecamp',
-                               \ 'lizard256',
-                               \ 'wombat256',
                                \ 'substrata',
                                \ 'janah',
                                \ 'embark',
@@ -875,7 +873,6 @@ let g:available_colorschemes = [
                                \ 'blue-moon',
                                \ 'challenger_deep',
                                \ 'angr',
-                               \ '0x7A69_dark',
                                \ 'quantum',
                                \ 'zenburn',
                                \ 'rasmus',
@@ -886,6 +883,7 @@ let g:available_colorschemes = [
                                \ 'cobalt2',
                                \ 'gruvbox-baby',
                                \ 'enfocado',
+                               \ 'omni',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
