@@ -544,6 +544,7 @@ let g:gruvbox_baby_telescope_theme  = 1
 let g:gruvbox_baby_transparent_mode = 1
 
 Plug 'lalitmee/cobalt2.nvim'
+Plug 'wuelnerdotexe/vim-enfocado'
 
 set termguicolors
 set hlsearch
@@ -871,6 +872,7 @@ let g:available_colorschemes = [
                                \ 'onehalfdark',
                                \ 'cobalt2',
                                \ 'gruvbox-baby',
+                               \ 'enfocado',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
