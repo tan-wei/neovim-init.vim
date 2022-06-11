@@ -888,7 +888,7 @@ let g:available_colorschemes = [
                                \ 'gruvbox-baby',
                                \ 'enfocado',
                                \ 'omni',
-                               \ 'wombat256',
+                               \ 'wombat256mod',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
