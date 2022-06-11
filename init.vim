@@ -274,7 +274,7 @@ Plug 'gregsexton/gitv'
 
 " Markdown related plugins {{{
 Plug 'godlygeek/tabular'
-Plug 'plasticboy/vim-markdown'
+Plug 'preservim/vim-markdown'
 
 
 let g:vim_markdown_math = 1
@@ -875,7 +875,6 @@ let g:available_colorschemes = [
                                \ 'janah',
                                \ 'embark',
                                \ 'shades_of_purple',
-                               \ 'shades-of-teal',
                                \ 'blue-moon',
                                \ 'challenger_deep',
                                \ 'angr',
