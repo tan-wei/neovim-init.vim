@@ -551,16 +551,16 @@ Plug 'lalitmee/cobalt2.nvim'
 Plug 'wuelnerdotexe/vim-enfocado'
 let g:enfocado_style   = 'nature' " Available: `nature` or `neon`.
 let g:enfocado_plugins = [
-  \ 'coc',
-  \ 'fzf',
-  \ 'gitgutter',
-  \ 'matchup',
-  \ 'nerdtree',
-  \ 'netrw',
-  \ 'plug',
-  \ 'startify',
-  \ 'yank',
-  \ ]
+                         \ 'coc',
+                         \ 'fzf',
+                         \ 'gitgutter',
+                         \ 'matchup',
+                         \ 'nerdtree',
+                         \ 'netrw',
+                         \ 'plug',
+                         \ 'startify',
+                         \ 'yank',
+                         \ ]
 
 Plug 'yonlu/omni.vim'
 Plug 'vim-scripts/wombat256.vim'
