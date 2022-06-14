@@ -692,6 +692,8 @@ Plug 'rhysd/clever-f.vim'
 
 " Menus related plugins {{{
 Plug 'gelguy/wilder.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
 
 " Icons
 Plug 'ryanoasis/vim-devicons'
