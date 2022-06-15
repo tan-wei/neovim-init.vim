@@ -567,6 +567,7 @@ Plug 'vim-scripts/wombat256.vim'
 Plug 'rockerBOO/boo-colorscheme-nvim'
 Plug 'windwp/wind-colors'
 Plug 'ldelossa/vimdark'
+Plug 'rmehri01/onenord.nvim'
 
 set termguicolors
 set hlsearch
@@ -896,6 +897,7 @@ let g:available_colorschemes = [
                                \ 'boo',
                                \ 'wind',
                                \ 'vimdark',
+                               \ 'onenord',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
