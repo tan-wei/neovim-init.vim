@@ -271,6 +271,7 @@ Plug 'junegunn/gv.vim'
 Plug 'rbong/vim-flog'
 Plug 'rhysd/git-messenger.vim'
 Plug 'gregsexton/gitv'
+Plug 'jreybert/vimagit'
 " }}}
 
 " Markdown related plugins {{{
