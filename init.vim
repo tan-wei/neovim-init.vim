@@ -568,6 +568,7 @@ Plug 'rockerBOO/boo-colorscheme-nvim'
 Plug 'windwp/wind-colors'
 Plug 'ldelossa/vimdark'
 Plug 'rmehri01/onenord.nvim'
+Plug 'dikiaap/minimalist'
 
 set termguicolors
 set hlsearch
@@ -898,6 +899,7 @@ let g:available_colorschemes = [
                                \ 'wind',
                                \ 'vimdark',
                                \ 'onenord',
+                               \ 'minimalist',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
