@@ -339,6 +339,7 @@ let g:vmt_fence_closing_text      = '/TOC'
 
 
 " Snippet related plugins {{{
+Plug 'SirVer/ultisnips'
 " }}}
 
 " Comment related plugins {{{
