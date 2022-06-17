@@ -581,6 +581,7 @@ Plug 'windwp/wind-colors'
 Plug 'ldelossa/vimdark'
 Plug 'rmehri01/onenord.nvim'
 Plug 'dikiaap/minimalist'
+Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' }
 
 set termguicolors
 set hlsearch
@@ -912,6 +913,7 @@ let g:available_colorschemes = [
                                \ 'vimdark',
                                \ 'onenord',
                                \ 'minimalist',
+                               \ 'semshi',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
