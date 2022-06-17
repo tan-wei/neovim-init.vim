@@ -261,10 +261,11 @@ vnoremap <silent> <f4> :<c-u>HSRmHighlight<CR>
 
 Plug 'wfxr/code-minimap'
 Plug 'wfxr/minimap.vim'
-
 let g:minimap_width                = 10
 let g:minimap_auto_start           = 1
 let g:minimap_auto_start_win_enter = 1
+
+Plug 'psliwka/vim-smoothie'
 " }}}
 
 " Git related plugins {{{
