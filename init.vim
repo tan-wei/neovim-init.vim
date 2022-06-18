@@ -583,6 +583,7 @@ Plug 'rmehri01/onenord.nvim'
 Plug 'dikiaap/minimalist'
 Plug 'bluz71/vim-nightfly-guicolors'
 Plug 'tssm/fairyfloss.vim'
+Plug 'phanviet/vim-monokai-pro'
 
 set termguicolors
 set hlsearch
@@ -917,6 +918,7 @@ let g:available_colorschemes = [
                                \ 'minimalist',
                                \ 'nightfly',
                                \ 'fairyfloss',
+                               \ 'monokai_pro',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
