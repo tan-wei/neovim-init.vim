@@ -61,7 +61,6 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'mhinz/vim-startify'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'itchyny/vim-cursorword'
-Plug 'lukas-reineke/indent-blankline.nvim'
 
 Plug 'terryma/vim-multiple-cursors'
 " Multi Cursor Default mapping
@@ -751,10 +750,14 @@ Plug 'folke/todo-comments.nvim'
 
 " Indent related plugins {{{
 Plug 'Yggdroot/indentLine'
-
-let g:indentLine_char_list  = ['|', '¦', '┆', '┊']
+let g:indentLine_char_list          = ['|', '¦', '┆', '┊']
 " Keep our conceal setting
-let g:indentLine_setConceal = 0
+let g:indentLine_setConceal         = 0
+let g:indent_blankline_indent_level = 100
+
+Plug 'lukas-reineke/indent-blankline.nvim'
+let g:indentLine_char_list          = ['|', '¦', '┆', '┊']
+let g:indent_blankline_indent_level = 100
 " }}}
 
 " Syntax checkers {{{
