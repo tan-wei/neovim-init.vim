@@ -610,7 +610,8 @@ let g:coc_global_extensions = [
                               \ 'coc-spell-checker',
                               \ 'coc-lists',
                               \ 'coc-snippets',
-                              \ 'coc-yank'
+                              \ 'coc-yank',
+                              \ 'coc-explorer',
                               \ ]
 
 " Config for 'coc-spell-checker'
@@ -912,7 +913,7 @@ let g:available_colorschemes = [
                                \ 'vimdark',
                                \ 'onenord',
                                \ 'minimalist',
-                               \ 'semshi',
+                               \ '',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
