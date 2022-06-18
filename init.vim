@@ -584,6 +584,7 @@ Plug 'dikiaap/minimalist'
 Plug 'bluz71/vim-nightfly-guicolors'
 Plug 'tssm/fairyfloss.vim'
 Plug 'phanviet/vim-monokai-pro'
+Plug 'ishan9299/nvim-solarized-lua'
 
 set termguicolors
 set hlsearch
@@ -919,6 +920,7 @@ let g:available_colorschemes = [
                                \ 'nightfly',
                                \ 'fairyfloss',
                                \ 'monokai_pro',
+                               \ 'solarized-high',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
