@@ -406,6 +406,11 @@ let g:ycm_semantic_triggers =  {
                                \ 'c,cpp,python,java,go,erlang,perl': ['re!\w{2}'],
                                \ 'cs,lua,javascript': ['re!\w{2}'],
                                \ }
+if has("win64") || has("win32") || has("win16")
+    " TODO: Everytime rust-analyzer is updated, the directory should be changed...
+    let g:ycm_rust_toolchain_root = "C:/ProgramData/scoop/apps/rust-analyzer/2022-06-06"
+endif
+
 " }}}
 
 " Rust related plugins {{{
