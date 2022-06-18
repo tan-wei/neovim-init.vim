@@ -353,6 +353,8 @@ Plug 'SirVer/ultisnips'
 " }}}
 
 " Comment related plugins {{{
+Plug 'tyru/caw.vim'
+
 Plug 'preservim/nerdcommenter'
 
 " Add spaces after comment delimiters by default
@@ -773,10 +775,6 @@ let g:syntastic_check_on_open            = 0
 let g:syntastic_check_on_wq              = 0
 " Now disable all messages
 let g:syntastic_quiet_messages           = { "type": "style" }
-" }}}
-
-" Comment related plugins {{{
-Plug 'tyru/caw.vim'
 " }}}
 
 " Code refactor related plugins {{{
