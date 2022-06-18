@@ -582,6 +582,7 @@ Plug 'ldelossa/vimdark'
 Plug 'rmehri01/onenord.nvim'
 Plug 'dikiaap/minimalist'
 Plug 'bluz71/vim-nightfly-guicolors'
+Plug 'tssm/fairyfloss.vim'
 
 set termguicolors
 set hlsearch
@@ -915,6 +916,7 @@ let g:available_colorschemes = [
                                \ 'onenord',
                                \ 'minimalist',
                                \ 'nightfly',
+                               \ 'fairyfloss',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
