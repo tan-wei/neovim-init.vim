@@ -581,6 +581,7 @@ Plug 'windwp/wind-colors'
 Plug 'ldelossa/vimdark'
 Plug 'rmehri01/onenord.nvim'
 Plug 'dikiaap/minimalist'
+Plug 'bluz71/vim-nightfly-guicolors'
 
 set termguicolors
 set hlsearch
@@ -913,7 +914,7 @@ let g:available_colorschemes = [
                                \ 'vimdark',
                                \ 'onenord',
                                \ 'minimalist',
-                               \ '',
+                               \ 'nightfly',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
