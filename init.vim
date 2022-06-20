@@ -592,6 +592,9 @@ Plug 'tssm/fairyfloss.vim'
 Plug 'phanviet/vim-monokai-pro'
 Plug 'ishan9299/nvim-solarized-lua'
 
+Plug 'frenzyexists/aquarium-vim', { 'branch': 'develop' }
+let g:aquarium_style = "dark"
+
 set termguicolors
 set hlsearch
 set nobackup
