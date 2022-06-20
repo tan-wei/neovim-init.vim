@@ -930,7 +930,7 @@ let g:available_colorschemes = [
                                \ 'fairyfloss',
                                \ 'monokai_pro',
                                \ 'solarized-high',
-                               \ 'aquarium-vim',
+                               \ 'aquarium',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
