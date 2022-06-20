@@ -59,7 +59,6 @@ Plug '907th/vim-auto-save'
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'mhinz/vim-startify'
-Plug 'bronson/vim-trailing-whitespace'
 Plug 'itchyny/vim-cursorword'
 
 Plug 'terryma/vim-multiple-cursors'
@@ -75,6 +74,17 @@ let g:multi_cursor_skip_key            = '<C-x>'
 let g:multi_cursor_quit_key            = '<Esc>'
 
 Plug 'ntpeters/vim-better-whitespace'
+let g:better_whitespace_filetypes_blacklist = [
+                                              \ 'diff',
+                                              \ 'git',
+                                              \ 'gitcommit',
+                                              \ 'unite',
+                                              \ 'qf',
+                                              \ 'help',
+                                              \ 'fugitive',
+                                              \ 'minimap',
+                                              \ ]
+
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'easymotion/vim-easymotion'
 
