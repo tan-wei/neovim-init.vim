@@ -612,6 +612,18 @@ let g:pencil_gutter_color       = 1  " 0=mono (def), 1=color
 let g:pencil_spell_undercurl    = 1  " 0=underline, 1=undercurl (def)
 let g:pencil_terminal_italics   = 1
 
+Plug 'bluz71/vim-moonfly-colors'
+let g:moonflyCursorColor = 1
+let g:moonflyItalics = 1
+let g:moonflyNormalFloat = 1
+let g:moonflyUndercurls = 1
+let g:moonflyUnderlineMatchParen = 1
+
+let g:moonflyWinSeparator = 2
+" 0 will display no window separators
+" 1 will display block separators; this is the default
+" 2 will diplay line separators
+
 
 set termguicolors
 set hlsearch
@@ -950,6 +962,7 @@ let g:available_colorschemes = [
                                \ 'solarized-high',
                                \ 'aquarium',
                                \ 'pencil',
+                               \ 'moonfly',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
