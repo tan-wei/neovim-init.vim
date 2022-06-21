@@ -605,7 +605,6 @@ Plug 'ishan9299/nvim-solarized-lua'
 Plug 'frenzyexists/aquarium-vim', { 'branch': 'develop' }
 let g:aquarium_style = "dark"
 
-Plug 'ishan9299/modus-theme-vim', {'branch': 'stable'}
 
 set termguicolors
 set hlsearch
@@ -943,7 +942,6 @@ let g:available_colorschemes = [
                                \ 'monokai_pro',
                                \ 'solarized-high',
                                \ 'aquarium',
-                               \ 'modus-vivend',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
