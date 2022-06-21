@@ -605,6 +605,13 @@ Plug 'ishan9299/nvim-solarized-lua'
 Plug 'frenzyexists/aquarium-vim', { 'branch': 'develop' }
 let g:aquarium_style = "dark"
 
+Plug 'preservim/vim-colors-pencil'
+let g:pencil_higher_contrast_ui = 0  " 0=low (def), 1=high
+let g:pencil_neutral_headings   = 1  " 0=blue (def), 1=normal
+let g:pencil_gutter_color       = 1  " 0=mono (def), 1=color
+let g:pencil_spell_undercurl    = 1  " 0=underline, 1=undercurl (def)
+let g:pencil_terminal_italics   = 1
+
 
 set termguicolors
 set hlsearch
@@ -942,6 +949,7 @@ let g:available_colorschemes = [
                                \ 'monokai_pro',
                                \ 'solarized-high',
                                \ 'aquarium',
+                               \ 'pencil',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
