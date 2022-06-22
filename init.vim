@@ -624,6 +624,7 @@ let g:moonflyWinSeparator = 2
 " 1 will display block separators; this is the default
 " 2 will diplay line separators
 
+Plug 'yassinebridi/vim-purpura'
 
 set termguicolors
 set hlsearch
@@ -963,6 +964,7 @@ let g:available_colorschemes = [
                                \ 'aquarium',
                                \ 'pencil',
                                \ 'moonfly',
+                               \ 'purpura',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
