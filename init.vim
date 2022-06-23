@@ -627,6 +627,7 @@ let g:moonflyWinSeparator = 2
 Plug 'yassinebridi/vim-purpura'
 Plug 'aonemd/kuroi.vim'
 Plug 'glepnir/oceanic-material'
+Plug 'yuttie/hydrangea-vim'
 " Plug 'agude/vim-eldar'
 
 set termguicolors
@@ -970,6 +971,7 @@ let g:available_colorschemes = [
                                \ 'purpura',
                                \ 'kuroi',
                                \ 'oceanic_material',
+                               \ 'hydrangea',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
