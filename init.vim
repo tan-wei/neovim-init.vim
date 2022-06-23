@@ -625,6 +625,7 @@ let g:moonflyWinSeparator = 2
 " 2 will diplay line separators
 
 Plug 'yassinebridi/vim-purpura'
+Plug 'aonemd/kuroi.vim'
 " Plug 'agude/vim-eldar'
 
 set termguicolors
@@ -966,6 +967,7 @@ let g:available_colorschemes = [
                                \ 'pencil',
                                \ 'moonfly',
                                \ 'purpura',
+                               \ 'kuroi',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
