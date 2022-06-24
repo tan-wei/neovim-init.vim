@@ -635,7 +635,7 @@ Plug 'haystackandroid/snow'
 Plug 'mcchrish/zenbones.nvim'
 Plug 'rktjmp/lush.nvim'
 
-
+Plug 'patstockwell/vim-monokai-tasty'
 " Plug 'agude/vim-eldar'
 
 set termguicolors
@@ -984,6 +984,7 @@ let g:available_colorschemes = [
                                \ 'ci_dark',
                                \ 'snow',
                                \ 'zenbones',
+                               \ 'vim-monokai-tasty',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
