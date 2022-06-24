@@ -628,6 +628,7 @@ Plug 'yassinebridi/vim-purpura'
 Plug 'aonemd/kuroi.vim'
 Plug 'glepnir/oceanic-material'
 Plug 'yuttie/hydrangea-vim'
+Plug 'ntk148v/vim-horizon'
 " Plug 'agude/vim-eldar'
 
 set termguicolors
@@ -972,6 +973,7 @@ let g:available_colorschemes = [
                                \ 'kuroi',
                                \ 'oceanic_material',
                                \ 'hydrangea',
+                               \ 'horizon',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
