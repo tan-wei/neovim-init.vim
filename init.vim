@@ -631,6 +631,11 @@ Plug 'yuttie/hydrangea-vim'
 Plug 'ntk148v/vim-horizon'
 Plug 'yunlingz/ci_dark'
 Plug 'haystackandroid/snow'
+
+Plug 'mcchrish/zenbones.nvim'
+Plug 'rktjmp/lush.nvim'
+
+
 " Plug 'agude/vim-eldar'
 
 set termguicolors
@@ -978,6 +983,7 @@ let g:available_colorschemes = [
                                \ 'horizon',
                                \ 'ci_dark',
                                \ 'snow',
+                               \ 'zenbones',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
