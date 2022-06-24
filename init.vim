@@ -636,6 +636,7 @@ Plug 'mcchrish/zenbones.nvim'
 Plug 'rktjmp/lush.nvim'
 
 Plug 'patstockwell/vim-monokai-tasty'
+Plug 'nikolvs/vim-sunbather'
 " Plug 'agude/vim-eldar'
 
 set termguicolors
@@ -985,6 +986,7 @@ let g:available_colorschemes = [
                                \ 'snow',
                                \ 'zenbones',
                                \ 'vim-monokai-tasty',
+                               \ 'sunbather',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
