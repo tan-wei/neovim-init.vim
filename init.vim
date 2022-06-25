@@ -922,7 +922,6 @@ let g:available_colorschemes = [
                                \ 'despacio',
                                \ 'everforest',
                                \ 'iceberg',
-                               \ 'evening',
                                \ 'sonokai',
                                \ 'falcon',
                                \ 'flatlandia',
