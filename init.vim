@@ -638,6 +638,7 @@ Plug 'rktjmp/lush.nvim'
 Plug 'patstockwell/vim-monokai-tasty'
 Plug 'nikolvs/vim-sunbather'
 Plug 'spf3000/skeletor.vim'
+Plug 'beikome/cosme.vim'
 " Plug 'agude/vim-eldar'
 
 set termguicolors
@@ -987,7 +988,8 @@ let g:available_colorschemes = [
                                \ 'zenbones',
                                \ 'vim-monokai-tasty',
                                \ 'sunbather',
-                               \ 'wal',
+                               \ 'cosme',
+                               \ 'skeletor',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
