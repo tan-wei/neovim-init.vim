@@ -531,7 +531,10 @@ Plug 'liuchengxu/space-vim-dark'
 Plug 'jaredgorski/SpaceCamp'
 Plug 'arzg/vim-substrata'
 Plug 'mhinz/vim-janah'
+
 Plug 'embark-theme/vim', { 'as': 'embark', 'branch': 'main' }
+let g:embark_terminal_italics = 1
+
 Plug 'Rigellute/shades-of-purple.vim'
 Plug 'kyazdani42/blue-moon'
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
