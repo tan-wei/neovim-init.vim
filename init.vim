@@ -577,9 +577,7 @@ let g:gruvbox_baby_keyword_style    = "italic"
 let g:gruvbox_baby_telescope_theme  = 1
 let g:gruvbox_baby_transparent_mode = 1
 
-" So which one is better?
-" Plug 'GlennLeo/cobalt2'
-Plug 'lalitmee/cobalt2.nvim'
+Plug 'GlennLeo/cobalt2'
 
 Plug 'wuelnerdotexe/vim-enfocado'
 let g:enfocado_style   = 'nature' " Available: `nature` or `neon`.
