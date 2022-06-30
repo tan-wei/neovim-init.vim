@@ -643,6 +643,7 @@ Plug 'nikolvs/vim-sunbather'
 Plug 'spf3000/skeletor.vim'
 Plug 'beikome/cosme.vim'
 " Plug 'agude/vim-eldar'
+Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
 
 set termguicolors
 set hlsearch
@@ -993,6 +994,7 @@ let g:available_colorschemes = [
                                \ 'sunbather',
                                \ 'cosme',
                                \ 'skeletor',
+                               \ 'spaceduck',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
