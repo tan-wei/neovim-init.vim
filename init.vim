@@ -646,6 +646,7 @@ Plug 'beikome/cosme.vim'
 Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
 Plug 'kaiuri/nvim-mariana'
 Plug 'cpea2506/one_monokai.nvim'
+Plug 'Everblush/everblush.vim'
 
 set termguicolors
 set hlsearch
@@ -999,6 +1000,7 @@ let g:available_colorschemes = [
                                \ 'spaceduck',
                                \ 'mariana',
                                \ 'one_monokai',
+                               \ 'everblush',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
