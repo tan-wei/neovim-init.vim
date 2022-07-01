@@ -645,6 +645,7 @@ Plug 'beikome/cosme.vim'
 " Plug 'agude/vim-eldar'
 Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
 Plug 'kaiuri/nvim-mariana'
+Plug 'cpea2506/one_monokai.nvim'
 
 set termguicolors
 set hlsearch
@@ -997,6 +998,7 @@ let g:available_colorschemes = [
                                \ 'skeletor',
                                \ 'spaceduck',
                                \ 'mariana',
+                               \ 'one_monokai',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
