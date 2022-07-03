@@ -59,7 +59,7 @@ Plug '907th/vim-auto-save'
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'mhinz/vim-startify'
-Plug 'itchyny/vim-cursorword'
+Plug 'yamatsum/nvim-cursorline'
 
 Plug 'terryma/vim-multiple-cursors'
 " Multi Cursor Default mapping
@@ -1154,3 +1154,18 @@ high_str.setup({
 })
 EOF
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+lua << EOF
+require('nvim-cursorline').setup {
+    cursorline = {
+        enable = true,
+        timeout = 1000,
+        number = false,
+    },
+    cursorword = {
+        enable = true,
+        min_length = 3,
+        hl = { underline = true },
+    }
+}
+EOF
