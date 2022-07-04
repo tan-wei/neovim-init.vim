@@ -648,6 +648,7 @@ Plug 'kaiuri/nvim-mariana'
 Plug 'cpea2506/one_monokai.nvim'
 Plug 'Everblush/everblush.vim'
 Plug 'shaunsingh/moonlight.nvim'
+Plug 'kyoz/purify', { 'rtp': 'vim' }
 
 set termguicolors
 set hlsearch
@@ -1003,6 +1004,7 @@ let g:available_colorschemes = [
                                \ 'one_monokai',
                                \ 'everblush',
                                \ 'moonlight',
+                               \ 'purify',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
