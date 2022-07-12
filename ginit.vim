@@ -40,8 +40,8 @@ if exists('g:neovide')
     if has("win64") || has("win32") || has("win16")
         set guifont=DejaVuSansMono\ Nerd\ Font:h8
     elseif has('mac')
-	    " Allow copy paste in neovim on MacOS
-	    set guifont=SauceCodePro\ Nerd\ Font:h10
+        " Allow copy paste in neovim on MacOS
+        set guifont=SauceCodePro\ Nerd\ Font:h10
         let g:neovide_input_use_logo = 1
         map <D-v> "+p<CR>
         map! <D-v> <C-R>+
