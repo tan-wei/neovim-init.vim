@@ -650,6 +650,7 @@ Plug 'Everblush/everblush.vim'
 Plug 'shaunsingh/moonlight.nvim'
 Plug 'kyoz/purify', { 'rtp': 'vim' }
 Plug 'andersevenrud/nordic.nvim'
+Plug 'lmburns/kimbox'
 
 set termguicolors
 set hlsearch
@@ -1007,6 +1008,7 @@ let g:available_colorschemes = [
                                \ 'moonlight',
                                \ 'purify',
                                \ 'nordic',
+                               \ 'kimbox',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
