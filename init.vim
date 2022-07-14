@@ -651,6 +651,7 @@ Plug 'shaunsingh/moonlight.nvim'
 Plug 'kyoz/purify', { 'rtp': 'vim' }
 Plug 'andersevenrud/nordic.nvim'
 Plug 'lmburns/kimbox'
+Plug 'rhysd/vim-color-spring-night'
 
 set termguicolors
 set hlsearch
@@ -1009,6 +1010,7 @@ let g:available_colorschemes = [
                                \ 'purify',
                                \ 'nordic',
                                \ 'kimbox',
+                               \ 'spring-night',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
