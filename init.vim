@@ -644,7 +644,7 @@ Plug 'spf3000/skeletor.vim'
 Plug 'beikome/cosme.vim'
 " Plug 'agude/vim-eldar'
 Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
-Plug 'kaiuri/nvim-mariana'
+Plug 'kaiuri/nvim-juliana'
 Plug 'cpea2506/one_monokai.nvim'
 Plug 'Everblush/everblush.vim'
 Plug 'shaunsingh/moonlight.nvim'
@@ -1003,7 +1003,7 @@ let g:available_colorschemes = [
                                \ 'cosme',
                                \ 'skeletor',
                                \ 'spaceduck',
-                               \ 'mariana',
+                               \ 'juliana',
                                \ 'one_monokai',
                                \ 'everblush',
                                \ 'moonlight',
