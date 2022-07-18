@@ -642,7 +642,7 @@ Plug 'patstockwell/vim-monokai-tasty'
 Plug 'nikolvs/vim-sunbather'
 Plug 'spf3000/skeletor.vim'
 Plug 'beikome/cosme.vim'
-" Plug 'agude/vim-eldar'
+Plug 'agude/vim-eldar'
 Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
 Plug 'kaiuri/nvim-juliana'
 Plug 'cpea2506/one_monokai.nvim'
@@ -1011,6 +1011,7 @@ let g:available_colorschemes = [
                                \ 'nordic',
                                \ 'kimbox',
                                \ 'spring-night',
+                               \ 'eldar',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
