@@ -652,6 +652,7 @@ Plug 'kyoz/purify', { 'rtp': 'vim' }
 Plug 'andersevenrud/nordic.nvim'
 Plug 'lmburns/kimbox'
 Plug 'rhysd/vim-color-spring-night'
+Plug 'aktersnurra/no-clown-fiesta.nvim'
 
 set termguicolors
 set hlsearch
@@ -1012,6 +1013,7 @@ let g:available_colorschemes = [
                                \ 'kimbox',
                                \ 'spring-night',
                                \ 'eldar',
+                               \ 'no-clown-fiesta',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
