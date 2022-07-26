@@ -653,6 +653,7 @@ Plug 'andersevenrud/nordic.nvim'
 Plug 'lmburns/kimbox'
 Plug 'rhysd/vim-color-spring-night'
 Plug 'aktersnurra/no-clown-fiesta.nvim'
+Plug 'lewpoly/sherbet.nvim'
 
 set termguicolors
 set hlsearch
@@ -1014,6 +1015,7 @@ let g:available_colorschemes = [
                                \ 'spring-night',
                                \ 'eldar',
                                \ 'no-clown-fiesta',
+                               \ 'sherbet',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
