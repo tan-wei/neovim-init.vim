@@ -635,7 +635,6 @@ Plug 'ntk148v/vim-horizon'
 Plug 'yunlingz/ci_dark'
 Plug 'mcchrish/zenbones.nvim'
 Plug 'rktjmp/lush.nvim'
-
 Plug 'patstockwell/vim-monokai-tasty'
 Plug 'nikolvs/vim-sunbather'
 Plug 'spf3000/skeletor.vim'
@@ -652,6 +651,7 @@ Plug 'lmburns/kimbox'
 Plug 'rhysd/vim-color-spring-night'
 Plug 'aktersnurra/no-clown-fiesta.nvim'
 Plug 'lewpoly/sherbet.nvim'
+Plug 'tiagovla/tokyodark.nvim'
 
 set termguicolors
 set hlsearch
@@ -1013,6 +1013,7 @@ let g:available_colorschemes = [
                                \ 'eldar',
                                \ 'no-clown-fiesta',
                                \ 'sherbet',
+                               \ 'tokyodark',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
