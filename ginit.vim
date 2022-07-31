@@ -11,7 +11,7 @@ if exists(':GuiFont')
         " NOTE: DejaVuSansMono Nerd Font causes 'bad fixed pitch metrics'
         GuiFont! DejaVuSansMono Nerd Font:h8
     elseif has('mac')
-        GuiFont! DejaVuSansMono Nerd Font:h10
+        GuiFont! DejaVuSansMono Nerd Font:h14
     endif
 endif
 
@@ -41,7 +41,7 @@ if exists('g:neovide')
         set guifont=DejaVuSansMono\ Nerd\ Font:h8
     elseif has('mac')
         " Allow copy paste in neovim on MacOS
-        set guifont=SauceCodePro\ Nerd\ Font:h10
+        set guifont=SauceCodePro\ Nerd\ Font:h14
         let g:neovide_input_use_logo = 1
         map <D-v> "+p<CR>
         map! <D-v> <C-R>+
