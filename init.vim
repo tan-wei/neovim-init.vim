@@ -653,7 +653,6 @@ Plug 'aktersnurra/no-clown-fiesta.nvim'
 Plug 'lewpoly/sherbet.nvim'
 Plug 'tiagovla/tokyodark.nvim'
 Plug 'NTBBloodbath/doom-one.nvim'
-Plug 'nxvu699134/vn-night.nvim'
 
 set termguicolors
 set hlsearch
@@ -1017,7 +1016,6 @@ let g:available_colorschemes = [
                                \ 'sherbet',
                                \ 'tokyodark',
                                \ 'doom-one',
-                               \ 'vn-night',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
