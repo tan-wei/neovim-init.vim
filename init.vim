@@ -654,6 +654,9 @@ Plug 'lewpoly/sherbet.nvim'
 Plug 'tiagovla/tokyodark.nvim'
 Plug 'NTBBloodbath/doom-one.nvim'
 
+Plug 'fxn/vim-monochrome'
+let g:monochrome_italic_comments = 1
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -1016,6 +1019,7 @@ let g:available_colorschemes = [
                                \ 'sherbet',
                                \ 'tokyodark',
                                \ 'doom-one',
+                               \ 'monochrome',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
