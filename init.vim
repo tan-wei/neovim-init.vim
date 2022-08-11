@@ -398,7 +398,7 @@ Plug 'numToStr/Comment.nvim'
 
 
 " C++ retlated plugins  {{{
-Plug 'ycm-core/YouCompleteMe'
+" Plug 'ycm-core/YouCompleteMe'
 
 let g:ycm_add_preview_to_completeopt = 0
 let g:ycm_show_diagnostics_ui = 0
