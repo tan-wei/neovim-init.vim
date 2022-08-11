@@ -689,6 +689,8 @@ let g:coc_global_extensions = [
                               \ 'coc-explorer',
                               \ ]
 
+inoremap <silent><expr> <tab> coc#pum#visible() ? coc#pum#confirm() : "\<tab>"
+
 " Config for 'coc-spell-checker'
 " <leader>aap for current paragraph
 " <leader>aw for current word
