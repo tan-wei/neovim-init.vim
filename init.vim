@@ -668,6 +668,10 @@ Plug 'NTBBloodbath/doom-one.nvim'
 Plug 'fxn/vim-monochrome'
 let g:monochrome_italic_comments = 1
 
+Plug 'rakr/vim-two-firewatch'
+let g:two_firewatch_italics = 1
+
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -1033,6 +1037,7 @@ let g:available_colorschemes = [
                                \ 'tokyodark',
                                \ 'doom-one',
                                \ 'monochrome',
+                               \ 'twofirewatch',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
