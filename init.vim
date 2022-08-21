@@ -672,6 +672,7 @@ Plug 'rakr/vim-two-firewatch'
 let g:two_firewatch_italics = 1
 
 Plug 'owickstrom/vim-colors-paramount'
+Plug 'JoosepAlviste/palenightfall.nvim'
 
 set termguicolors
 set hlsearch
@@ -1040,6 +1041,7 @@ let g:available_colorschemes = [
                                \ 'monochrome',
                                \ 'twofirewatch',
                                \ 'paramount',
+                               \ 'palenightfall',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
