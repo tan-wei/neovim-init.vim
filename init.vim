@@ -671,6 +671,7 @@ let g:monochrome_italic_comments = 1
 Plug 'rakr/vim-two-firewatch'
 let g:two_firewatch_italics = 1
 
+Plug 'owickstrom/vim-colors-paramount'
 
 set termguicolors
 set hlsearch
@@ -1038,6 +1039,7 @@ let g:available_colorschemes = [
                                \ 'doom-one',
                                \ 'monochrome',
                                \ 'twofirewatch',
+                               \ 'paramount',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
