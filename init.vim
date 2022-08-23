@@ -1040,10 +1040,10 @@ let g:available_colorschemes = [
                                \ 'tokyodark',
                                \ 'doom-one',
                                \ 'monochrome',
-                               \ 'twofirewatch',
                                \ 'paramount',
                                \ 'palenightfall',
                                \ 'deep-space',
+                               \ 'two-firewatch',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
