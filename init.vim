@@ -1199,7 +1199,13 @@ call coc#config('languageserver', {
 		\ 'ccls': {
 		\   "command": "ccls",
 		\   "trace.server": "verbose",
-		\   "filetypes": ["c", "cpp", "objc", "objcpp"]
+		\   "filetypes": ["c", "cpp", "objc", "objcpp"],
+        \   "rootPatterns": ["build/compile_commands.json", ".ccls", "compile_commands.json", ".git/", ".hg/"],
+        \   "initializationOptions": {
+        \     "cache": {
+        \       "directory": "/tmp/ccls"
+        \     }
+        \   }
 		\ }
 		\})
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
