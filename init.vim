@@ -406,31 +406,6 @@ Plug 'numToStr/Comment.nvim'
 
 
 " C++ retlated plugins  {{{
-Plug 'ycm-core/YouCompleteMe'
-
-let g:ycm_add_preview_to_completeopt = 0
-let g:ycm_show_diagnostics_ui = 0
-let g:ycm_server_log_level = 'info'
-let g:ycm_min_num_identifier_candidate_chars = 2
-let g:ycm_collect_identifiers_from_comments_and_strings = 1
-let g:ycm_complete_in_strings=1
-let g:ycm_key_invoke_completion = '<c-z>'
-let g:ycm_disable_for_files_larger_than_kb = 1000000
-set completeopt=menu,menuone
-
-noremap <c-z> <NOP>
-
-let g:ycm_semantic_triggers =  {
-                               \ 'c,cpp,python,java,go,erlang,perl': ['re!\w{2}'],
-                               \ 'cs,lua,javascript': ['re!\w{2}'],
-                               \ }
-
-let g:ycm_key_list_select_completion = ['<C-TAB>', '<Down>']
-
-if has("win64") || has("win32") || has("win16")
-    " NOTE: use "sudo scoop install rust-analyzer -g"
-    let g:ycm_rust_toolchain_root = "C:/ProgramData/scoop/apps/rust-analyzer/current"
-endif
 
 " }}}
 
@@ -1213,3 +1188,15 @@ require('nvim-cursorline').setup {
 }
 EOF
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+call coc#config('coc.preferences', {
+		\ 'timeout': 1000,
+		\})
+
+call coc#config('languageserver', {
+		\ 'ccls': {
+		\   "command": "ccls",
+		\   "trace.server": "verbose",
+		\   "filetypes": ["c", "cpp", "objc", "objcpp"]
+		\ }
+		\})
