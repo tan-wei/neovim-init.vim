@@ -680,6 +680,7 @@ let g:coc_global_extensions = [
                               \ 'coc-snippets',
                               \ 'coc-yank',
                               \ 'coc-explorer',
+                              \ 'coc-rust-analyzer',
                               \ ]
 
 inoremap <silent><expr> <tab> coc#pum#visible() ? coc#pum#confirm() : "\<tab>"
