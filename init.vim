@@ -673,6 +673,9 @@ let g:coc_global_extensions = [
                               \ 'coc-yank',
                               \ 'coc-explorer',
                               \ 'coc-rust-analyzer',
+                              \ 'coc-cmake',
+                              \ 'coc-nginx',
+                              \ 'coc-markmap',
                               \ ]
 
 inoremap <silent><expr> <tab> coc#pum#visible() ? coc#pum#confirm() : "\<tab>"
