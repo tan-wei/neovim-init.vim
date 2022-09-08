@@ -1185,20 +1185,20 @@ EOF
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Configurations of coc.nvim
 call coc#config('coc.preferences', {
-		\ 'timeout': 1000,
-		\})
+        \ 'timeout': 1000,
+        \ })
 
 call coc#config('languageserver', {
-		\ 'ccls': {
-		\   "command": "ccls",
-		\   "trace.server": "verbose",
-		\   "filetypes": ["c", "cpp", "objc", "objcpp"],
+        \ 'ccls': {
+        \   "command": "ccls",
+        \   "trace.server": "verbose",
+        \   "filetypes": ["c", "cpp", "objc", "objcpp"],
         \   "rootPatterns": ["build/compile_commands.json", ".ccls", "compile_commands.json", ".git/", ".hg/"],
         \   "initializationOptions": {
         \     "cache": {
         \       "directory": "/tmp/ccls"
         \     }
         \   }
-		\ }
-		\})
+        \ }
+        \ })
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
