@@ -674,7 +674,6 @@ let g:coc_global_extensions = [
                               \ 'coc-explorer',
                               \ 'coc-rust-analyzer',
                               \ 'coc-cmake',
-                              \ 'coc-nginx',
                               \ 'coc-markmap',
                               \ ]
 
@@ -686,6 +685,8 @@ inoremap <silent><expr> <tab> coc#pum#visible() ? coc#pum#confirm() : "\<tab>"
 
 vmap <leader>a <Plug>(coc-codeaction-selected)
 nmap <leader>a <Plug>(coc-codeaction-selected)
+
+Plug 'yaegassy/coc-nginx', {'do': 'yarn install --frozen-lockfile'}
 
 
 " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
