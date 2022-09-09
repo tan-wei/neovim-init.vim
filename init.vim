@@ -275,6 +275,7 @@ vnoremap <silent> <f4> :<c-u>HSRmHighlight<CR>
 " let g:minimap_auto_start_win_enter = 1
 
 Plug 'psliwka/vim-smoothie'
+Plug 'inkarkat/vim-mark'
 " }}}
 
 " Git related plugins {{{
