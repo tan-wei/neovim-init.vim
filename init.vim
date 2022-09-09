@@ -925,7 +925,6 @@ let g:available_colorschemes = [
                                \ 'material',
                                \ 'hybrid',
                                \ 'seoul256',
-                               \ 'rvcs',
                                \ 'vscode',
                                \ 'aurora',
                                \ 'srcery',
