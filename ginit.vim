@@ -9,7 +9,7 @@ if exists(':GuiFont')
     if has("win64") || has("win32") || has("win16")
         " Use GuiFont! to ignore font errors
         " NOTE: DejaVuSansMono Nerd Font causes 'bad fixed pitch metrics'
-        GuiFont! DejaVuSansMono Nerd Font:h8
+        GuiFont! DejaVuSansMono Nerd Font:h12
     elseif has('mac')
         GuiFont! DejaVuSansMono Nerd Font:h14
     endif
@@ -38,7 +38,7 @@ endif
 " Settings for neovide
 if exists('g:neovide')
     if has("win64") || has("win32") || has("win16")
-        set guifont=DejaVuSansMono\ Nerd\ Font:h8
+        set guifont=DejaVuSansMono\ Nerd\ Font:h12
     elseif has('mac')
         " Allow copy paste in neovim on MacOS
         set guifont=SauceCodePro\ Nerd\ Font:h14
