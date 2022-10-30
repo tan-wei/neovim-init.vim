@@ -642,6 +642,7 @@ let g:two_firewatch_italics = 1
 Plug 'owickstrom/vim-colors-paramount'
 Plug 'JoosepAlviste/palenightfall.nvim'
 Plug 'tyrannicaltoucan/vim-deep-space'
+Plug 'AlessandroYorba/Sierra'
 
 set termguicolors
 set hlsearch
@@ -1016,6 +1017,7 @@ let g:available_colorschemes = [
                                \ 'palenightfall',
                                \ 'deep-space',
                                \ 'two-firewatch',
+                               \ 'sierra',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
