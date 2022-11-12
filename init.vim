@@ -644,6 +644,11 @@ Plug 'JoosepAlviste/palenightfall.nvim'
 Plug 'tyrannicaltoucan/vim-deep-space'
 Plug 'AlessandroYorba/Sierra'
 
+Plug 'danilo-augusto/vim-afterglow'
+let g:afterglow_blackout        = 1
+let g:afterglow_italic_comments = 1
+let g:afterglow_use_italics     = 1
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -1018,6 +1023,7 @@ let g:available_colorschemes = [
                                \ 'deep-space',
                                \ 'two-firewatch',
                                \ 'sierra',
+			       \ 'afterglow',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
