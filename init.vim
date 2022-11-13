@@ -649,6 +649,8 @@ let g:afterglow_blackout        = 1
 let g:afterglow_italic_comments = 1
 let g:afterglow_use_italics     = 1
 
+Plug 'Mofiqul/adwaita.nvim'
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -1024,6 +1026,7 @@ let g:available_colorschemes = [
                                \ 'two-firewatch',
                                \ 'sierra',
 			       \ 'afterglow',
+			       \ 'adwaita',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
