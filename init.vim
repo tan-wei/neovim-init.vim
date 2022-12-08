@@ -1035,8 +1035,8 @@ let g:available_colorschemes = [
                                \ 'deep-space',
                                \ 'two-firewatch',
                                \ 'sierra',
-			       \ 'afterglow',
-			       \ 'adwaita',
+                               \ 'afterglow',
+                               \ 'adwaita',
                                \ 'neon',
                                \ ]
 
