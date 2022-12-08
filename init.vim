@@ -651,6 +651,16 @@ let g:afterglow_use_italics     = 1
 
 Plug 'Mofiqul/adwaita.nvim'
 
+Plug 'rafamadriz/neon'
+let g:neon_style           = 'dark' " default, doom, dark and light
+let g:neon_italic_comment  = v:true
+let g:neon_italic_keyword  = v:false
+let g:neon_italic_boolean  = v:false
+let g:neon_italic_function = v:false
+let g:neon_italic_variable = v:false
+let g:neon_bold            = v:true
+let g:neon_transparent     = v:true
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -1027,6 +1037,7 @@ let g:available_colorschemes = [
                                \ 'sierra',
 			       \ 'afterglow',
 			       \ 'adwaita',
+                               \ 'neon',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
