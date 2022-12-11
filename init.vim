@@ -661,6 +661,8 @@ let g:neon_italic_variable = v:false
 let g:neon_bold            = v:true
 let g:neon_transparent     = v:true
 
+Plug 'ofirgall/ofirkai.nvim'
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -1038,6 +1040,7 @@ let g:available_colorschemes = [
                                \ 'afterglow',
                                \ 'adwaita',
                                \ 'neon',
+                               \ 'ofirkai',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
