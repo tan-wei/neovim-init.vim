@@ -622,7 +622,6 @@ Plug 'agude/vim-eldar'
 Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
 Plug 'kaiuri/nvim-juliana'
 Plug 'cpea2506/one_monokai.nvim'
-Plug 'Everblush/everblush.vim'
 Plug 'shaunsingh/moonlight.nvim'
 Plug 'kyoz/purify', { 'rtp': 'vim' }
 Plug 'andersevenrud/nordic.nvim'
@@ -662,6 +661,7 @@ let g:neon_bold            = v:true
 let g:neon_transparent     = v:true
 
 Plug 'ofirgall/ofirkai.nvim'
+Plug 'Everblush/everblush.nvim', { 'as': 'everblush' }
 
 set termguicolors
 set hlsearch
