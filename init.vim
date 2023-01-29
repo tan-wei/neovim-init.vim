@@ -661,7 +661,7 @@ let g:neon_bold            = v:true
 let g:neon_transparent     = v:true
 
 Plug 'ofirgall/ofirkai.nvim'
-Plug 'Everblush/everblush.nvim', { 'as': 'everblush' }
+Plug 'Everblush/nvim', { 'as': 'everblush' }
 
 set termguicolors
 set hlsearch
