@@ -662,6 +662,7 @@ let g:neon_transparent     = v:true
 
 Plug 'ofirgall/ofirkai.nvim'
 Plug 'Everblush/nvim', { 'as': 'everblush' }
+Plug 'kartikp10/noctis.nvim'
 
 set termguicolors
 set hlsearch
@@ -1041,6 +1042,7 @@ let g:available_colorschemes = [
                                \ 'adwaita',
                                \ 'neon',
                                \ 'ofirkai',
+			       \ 'noctis',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
