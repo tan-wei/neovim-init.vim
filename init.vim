@@ -663,6 +663,7 @@ let g:neon_transparent     = v:true
 Plug 'ofirgall/ofirkai.nvim'
 Plug 'Everblush/nvim', { 'as': 'everblush' }
 Plug 'kartikp10/noctis.nvim'
+Plug 'lifepillar/vim-gruvbox8'
 
 set termguicolors
 set hlsearch
@@ -1043,6 +1044,7 @@ let g:available_colorschemes = [
                                \ 'neon',
                                \ 'ofirkai',
 			       \ 'noctis',
+			       \ 'gruvbox8',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
