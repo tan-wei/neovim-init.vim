@@ -276,6 +276,7 @@ vnoremap <silent> <f4> :<c-u>HSRmHighlight<CR>
 
 Plug 'psliwka/vim-smoothie'
 Plug 'inkarkat/vim-mark'
+Plug 'christoomey/vim-system-copy'
 " }}}
 
 " Git related plugins {{{
