@@ -666,6 +666,7 @@ Plug 'Everblush/nvim', { 'as': 'everblush' }
 Plug 'kartikp10/noctis.nvim'
 Plug 'lifepillar/vim-gruvbox8'
 Plug 'rockyzhang24/arctic.nvim'
+Plug 'kvrohit/mellow.nvim'
 
 set termguicolors
 set hlsearch
@@ -1045,9 +1046,10 @@ let g:available_colorschemes = [
                                \ 'adwaita',
                                \ 'neon',
                                \ 'ofirkai',
-			       \ 'noctis',
-			       \ 'gruvbox8',
-			       \ 'arctiv',
+                               \ 'noctis',
+                               \ 'gruvbox8',
+                               \ 'arctiv',
+                               \ 'mellow',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
