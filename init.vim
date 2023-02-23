@@ -667,6 +667,7 @@ Plug 'kartikp10/noctis.nvim'
 Plug 'lifepillar/vim-gruvbox8'
 Plug 'rockyzhang24/arctic.nvim'
 Plug 'kvrohit/mellow.nvim'
+Plug 'uloco/bluloco.nvim'
 
 set termguicolors
 set hlsearch
@@ -1050,6 +1051,7 @@ let g:available_colorschemes = [
                                \ 'gruvbox8',
                                \ 'arctiv',
                                \ 'mellow',
+                               \ 'bluloco-dark',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
