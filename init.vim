@@ -1053,7 +1053,7 @@ let g:available_colorschemes = [
                                \ 'ofirkai',
                                \ 'noctis',
                                \ 'gruvbox8',
-                               \ 'arctiv',
+                               \ 'arctic',
                                \ 'mellow',
                                \ 'bluloco-dark',
 			       \ 'kalisi',
