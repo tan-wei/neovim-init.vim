@@ -669,6 +669,8 @@ Plug 'rockyzhang24/arctic.nvim'
 Plug 'kvrohit/mellow.nvim'
 Plug 'uloco/bluloco.nvim'
 
+Plug 'freeo/vim-kalisi'
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -1052,6 +1054,7 @@ let g:available_colorschemes = [
                                \ 'arctiv',
                                \ 'mellow',
                                \ 'bluloco-dark',
+			       \ 'kalisi',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
