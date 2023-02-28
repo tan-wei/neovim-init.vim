@@ -671,6 +671,8 @@ Plug 'uloco/bluloco.nvim'
 
 Plug 'freeo/vim-kalisi'
 
+Plug 'kristijanhusak/vim-hybrid-material'
+
 set termguicolors
 set hlsearch
 set nobackup
@@ -1055,6 +1057,8 @@ let g:available_colorschemes = [
                                \ 'mellow',
                                \ 'bluloco-dark',
 			       \ 'kalisi',
+			       \ 'hybrid_reverse',
+			       \ 'hybrid_material',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
