@@ -1057,10 +1057,10 @@ let g:available_colorschemes = [
                                \ 'arctic',
                                \ 'mellow',
                                \ 'bluloco-dark',
-			       \ 'kalisi',
-			       \ 'hybrid_reverse',
-			       \ 'hybrid_material',
-			       \ 'rose-pine',
+                               \ 'kalisi',
+                               \ 'hybrid_reverse',
+                               \ 'hybrid_material',
+                               \ 'rose-pine',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
