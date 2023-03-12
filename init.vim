@@ -673,6 +673,7 @@ Plug 'freeo/vim-kalisi'
 
 Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 
 set termguicolors
 set hlsearch
@@ -1061,6 +1062,11 @@ let g:available_colorschemes = [
                                \ 'hybrid_reverse',
                                \ 'hybrid_material',
                                \ 'rose-pine',
+                               \ 'catppuccin',
+                               \ 'catppuccin-latte',
+                               \ 'catppuccin-frappe',
+                               \ 'catppuccin-macchiato',
+                               \ 'catppuccin-mocha',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
