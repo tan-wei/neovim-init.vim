@@ -672,6 +672,7 @@ Plug 'uloco/bluloco.nvim'
 Plug 'freeo/vim-kalisi'
 
 Plug 'kristijanhusak/vim-hybrid-material'
+Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
 
 set termguicolors
 set hlsearch
@@ -1059,6 +1060,7 @@ let g:available_colorschemes = [
 			       \ 'kalisi',
 			       \ 'hybrid_reverse',
 			       \ 'hybrid_material',
+			       \ 'rose-pine',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
