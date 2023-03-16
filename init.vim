@@ -299,8 +299,8 @@ Plug 'godlygeek/tabular'
 Plug 'preservim/vim-markdown'
 
 
-let g:vim_markdown_math = 1
-let g:vim_markdown_toc_autofit = 1
+let g:vim_markdown_math             = 1
+let g:vim_markdown_toc_autofit      = 1
 let g:vim_markdown_folding_disabled = 1
 
 Plug 'mzlogin/vim-markdown-toc'
@@ -765,9 +765,9 @@ Plug 'machakann/vim-sandwich'
 Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
 
 " don't show the help in normal mode
-let g:Lf_HideHelp = 1
-let g:Lf_UseCache = 0
-let g:Lf_UseVersionControlTool = 0
+let g:Lf_HideHelp                = 1
+let g:Lf_UseCache                = 0
+let g:Lf_UseVersionControlTool   = 0
 let g:Lf_IgnoreCurrentBufferName = 1
 " popup mode
 let g:Lf_WindowPosition = 'popup'
