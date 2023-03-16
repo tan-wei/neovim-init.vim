@@ -674,6 +674,7 @@ Plug 'freeo/vim-kalisi'
 Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'romainl/flattened'
 
 set termguicolors
 set hlsearch
@@ -1069,6 +1070,7 @@ let g:available_colorschemes = [
                                \ 'catppuccin-frappe',
                                \ 'catppuccin-macchiato',
                                \ 'catppuccin-mocha',
+                               \ 'flattened_dark',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
