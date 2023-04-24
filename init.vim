@@ -561,6 +561,7 @@ Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'romainl/flattened'
+Plug 'AhmedAbdulrahman/aylin.vim'
 
 set termguicolors
 set hlsearch
@@ -957,6 +958,7 @@ let g:available_colorschemes = [
                                \ 'catppuccin-macchiato',
                                \ 'catppuccin-mocha',
                                \ 'flattened_dark',
+                               \ 'aylin',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
