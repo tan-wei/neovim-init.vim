@@ -562,6 +562,7 @@ Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'romainl/flattened'
 Plug 'AhmedAbdulrahman/aylin.vim'
+Plug 'Shadorain/shadotheme'
 
 set termguicolors
 set hlsearch
@@ -959,6 +960,7 @@ let g:available_colorschemes = [
                                \ 'catppuccin-mocha',
                                \ 'flattened_dark',
                                \ 'aylin',
+			       \ 'shado',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
