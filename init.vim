@@ -565,6 +565,7 @@ Plug 'AhmedAbdulrahman/aylin.vim'
 Plug 'Shadorain/shadotheme'
 Plug 'raphamorim/lucario'
 Plug 'lunacookies/vim-colors-xcode'
+Plug 'haishanh/night-owl.vim'
 
 set termguicolors
 set hlsearch
@@ -969,6 +970,7 @@ let g:available_colorschemes = [
                                \ 'xcodedark',
                                \ 'xcodedarkhc',
                                \ 'xcodewwdc',
+                               \ 'night-owl',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
