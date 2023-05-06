@@ -567,6 +567,7 @@ Plug 'raphamorim/lucario'
 Plug 'lunacookies/vim-colors-xcode'
 Plug 'haishanh/night-owl.vim'
 Plug 'gosukiwi/vim-atom-dark'
+Plug 'jpo/vim-railscasts-theme'
 
 set termguicolors
 set hlsearch
@@ -975,6 +976,7 @@ let g:available_colorschemes = [
                                \ 'night-owl',
                                \ 'atom-dark',
                                \ 'atom-dark-256',
+                               \ 'railscasts',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
