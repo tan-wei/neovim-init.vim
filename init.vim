@@ -564,6 +564,7 @@ Plug 'romainl/flattened'
 Plug 'AhmedAbdulrahman/aylin.vim'
 Plug 'Shadorain/shadotheme'
 Plug 'raphamorim/lucario'
+Plug 'lunacookies/vim-colors-xcode'
 
 set termguicolors
 set hlsearch
@@ -963,6 +964,11 @@ let g:available_colorschemes = [
                                \ 'aylin',
 			       \ 'shado',
 			       \ 'lucario',
+                               \ 'xcode',
+                               \ 'xcodehc',
+                               \ 'xcodedark',
+                               \ 'xcodedarkhc',
+                               \ 'xcodewwdc',
                                \ ]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
