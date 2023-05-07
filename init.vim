@@ -568,7 +568,7 @@ Plug 'lunacookies/vim-colors-xcode'
 Plug 'haishanh/night-owl.vim'
 Plug 'gosukiwi/vim-atom-dark'
 Plug 'jpo/vim-railscasts-theme'
-Plug artanikin/vim-synthwave84
+Plug 'artanikin/vim-synthwave84'
 Plug 'wadackel/vim-dogrun'
 
 set termguicolors
