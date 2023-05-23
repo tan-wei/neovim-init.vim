@@ -56,6 +56,14 @@ endif
 
 " General {{{
 Plug '907th/vim-auto-save'
+
+let g:auto_save        = 0
+let g:auto_save_events = ["InsertLeave", "TextChanged"]
+augroup ft_markdown
+  au!
+  au FileType markdown let b:auto_save = 1
+augroup END
+
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'mhinz/vim-startify'
