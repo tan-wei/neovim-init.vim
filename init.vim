@@ -67,6 +67,9 @@ augroup END
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'nvim-tree/nvim-tree.lua'
 
+let g:loaded_netrw       = 1
+let g:loaded_netrwPlugin = 1
+
 Plug 'mhinz/vim-startify'
 Plug 'yamatsum/nvim-cursorline'
 
