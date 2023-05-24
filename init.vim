@@ -64,8 +64,9 @@ augroup ft_markdown
     au FileType markdown let b:auto_save = 1
 augroup END
 
-Plug 'preservim/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'nvim-tree/nvim-web-devicons'
+Plug 'nvim-tree/nvim-tree.lua'
+
 Plug 'mhinz/vim-startify'
 Plug 'yamatsum/nvim-cursorline'
 
