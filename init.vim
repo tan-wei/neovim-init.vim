@@ -70,6 +70,8 @@ Plug 'nvim-tree/nvim-tree.lua'
 let g:loaded_netrw       = 1
 let g:loaded_netrwPlugin = 1
 
+Plug 'folke/which-key.nvim'
+
 Plug 'mhinz/vim-startify'
 Plug 'yamatsum/nvim-cursorline'
 
@@ -1283,5 +1285,12 @@ EOF
 " Setup of nvim-tree.lua
 lua << EOF
 require('nvim-tree').setup()
+EOF
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Setup of which-key.nvim
+lua << EOF
+require('which-key').setup()
 EOF
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
