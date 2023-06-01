@@ -1291,6 +1291,14 @@ EOF
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Setup of which-key.nvim
 lua << EOF
-require('which-key').setup()
+local wk = require('which-key')
+
+wk.register({
+    t = {
+	    name = "table mode",
+	    m = { "<cmd>TableModeToggle<cr>", "Toggle Table Mode" },
+    }
+}, { prefix = "<leader>" })
+
 EOF
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
