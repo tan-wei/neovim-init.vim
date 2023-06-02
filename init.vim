@@ -119,7 +119,6 @@ let MRU_File = '~/.config/nvim/plugged/_nvim_mru_files'
 
 
 " Tabline related plugins
-Plug 'kyazdani42/nvim-web-devicons'
 Plug 'romgrk/barbar.nvim'
 
 Plug 'wellle/context.vim'
