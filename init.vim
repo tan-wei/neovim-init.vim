@@ -881,7 +881,7 @@ let g:available_colorschemes = [
                                \ 'github_dark',
                                \ 'github_dark_colorblind',
                                \ 'github_dark_default',
-                               \ 'github_dimmed',
+                               \ 'github_dark_dimmed',
                                \ 'nightfox',
                                \ 'tokyonight',
                                \ 'dracula',
